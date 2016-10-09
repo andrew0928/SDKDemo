@@ -1,0 +1,2988 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<cwbopendata xmlns="urn:cwb:gov:tw:cwbcommon:0.1">
+    <identifier >c23fb8ba-b157-409a-4c11-6121326cdc4f</identifier>
+    <sender >weather@cwb.gov.tw</sender>
+    <sent >2016-10-08T22:06:03+08:00</sent>
+    <status >Actual</status>
+    <msgType >Issue</msgType>
+    <source >MFC</source>
+    <dataid >C0032-001</dataid>
+    <scope >Public</scope>
+    <dataset >
+        <datasetInfo>
+            <datasetDescription>三十六小時天氣預報</datasetDescription>
+            <issueTime>2016-10-08T23:00:00+08:00</issueTime>
+            <update>2016-10-08T22:06:03+08:00</update>
+</datasetInfo>
+        <location>
+            <locationName>臺北市</locationName>
+            <weatherElement>
+                <elementName>Wx</elementName>
+                <time>
+                    <startTime>2016-10-09T00:00:00+08:00</startTime>
+                    <endTime>2016-10-09T06:00:00+08:00</endTime>
+                    <parameter>
+                        <parameterName>陰短暫陣雨或雷雨</parameterName>
+                        <parameterValue>36</parameterValue>
+</parameter>
+</time>
+                <time>
+                    <startTime>2016-10-09T06:00:00+08:00</startTime>
+                    <endTime>2016-10-09T18:00:00+08:00</endTime>
+                    <parameter>
+                        <parameterName>陰短暫陣雨或雷雨</parameterName>
+                        <parameterValue>36</parameterValue>
+</parameter>
+</time>
+                <time>
+                    <startTime>2016-10-09T18:00:00+08:00</startTime>
+                    <endTime>2016-10-10T06:00:00+08:00</endTime>
+                    <parameter>
+                        <parameterName>陰短暫陣雨</parameterName>
+                        <parameterValue>26</parameterValue>
+</parameter>
+</time>
+</weatherElement>
+            <weatherElement>
+                <elementName>MaxT</elementName>
+                <time>
+                    <startTime>2016-10-09T00:00:00+08:00</startTime>
+                    <endTime>2016-10-09T06:00:00+08:00</endTime>
+                    <parameter>
+                        <parameterName>25</parameterName>
+                        <parameterUnit>C</parameterUnit>
+</parameter>
+</time>
+                <time>
+                    <startTime>2016-10-09T06:00:00+08:00</startTime>
+                    <endTime>2016-10-09T18:00:00+08:00</endTime>
+                    <parameter>
+                        <parameterName>26</parameterName>
+                        <parameterUnit>C</parameterUnit>
+</parameter>
+</time>
+                <time>
+                    <startTime>2016-10-09T18:00:00+08:00</startTime>
+                    <endTime>2016-10-10T06:00:00+08:00</endTime>
+                    <parameter>
+                        <parameterName>24</parameterName>
+                        <parameterUnit>C</parameterUnit>
+</parameter>
+</time>
+</weatherElement>
+            <weatherElement>
+                <elementName>MinT</elementName>
+                <time>
+                    <startTime>2016-10-09T00:00:00+08:00</startTime>
+                    <endTime>2016-10-09T06:00:00+08:00</endTime>
+                    <parameter>
+                        <parameterName>24</parameterName>
+                        <parameterUnit>C</parameterUnit>
+</parameter>
+</time>
+                <time>
+                    <startTime>2016-10-09T06:00:00+08:00</startTime>
+                    <endTime>2016-10-09T18:00:00+08:00</endTime>
+                    <parameter>
+                        <parameterName>24</parameterName>
+                        <parameterUnit>C</parameterUnit>
+</parameter>
+</time>
+                <time>
+                    <startTime>2016-10-09T18:00:00+08:00</startTime>
+                    <endTime>2016-10-10T06:00:00+08:00</endTime>
+                    <parameter>
+                        <parameterName>22</parameterName>
+                        <parameterUnit>C</parameterUnit>
+</parameter>
+</time>
+</weatherElement>
+            <weatherElement>
+                <elementName>CI</elementName>
+                <time>
+                    <startTime>2016-10-09T00:00:00+08:00</startTime>
+                    <endTime>2016-10-09T06:00:00+08:00</endTime>
+                    <parameter>
+                        <parameterName>舒適</parameterName>
+</parameter>
+</time>
+                <time>
+                    <startTime>2016-10-09T06:00:00+08:00</startTime>
+                    <endTime>2016-10-09T18:00:00+08:00</endTime>
+                    <parameter>
+                        <parameterName>舒適</parameterName>
+</parameter>
+</time>
+                <time>
+                    <startTime>2016-10-09T18:00:00+08:00</startTime>
+                    <endTime>2016-10-10T06:00:00+08:00</endTime>
+                    <parameter>
+                        <parameterName>舒適</parameterName>
+</parameter>
+</time>
+</weatherElement>
+            <weatherElement>
+                <elementName>PoP</elementName>
+                <time>
+                    <startTime>2016-10-09T00:00:00+08:00</startTime>
+                    <endTime>2016-10-09T06:00:00+08:00</endTime>
+                    <parameter>
+                        <parameterName>60</parameterName>
+                        <parameterUnit>百分比</parameterUnit>
+</parameter>
+</time>
+                <time>
+                    <startTime>2016-10-09T06:00:00+08:00</startTime>
+                    <endTime>2016-10-09T18:00:00+08:00</endTime>
+                    <parameter>
+                        <parameterName>60</parameterName>
+                        <parameterUnit>百分比</parameterUnit>
+</parameter>
+</time>
+                <time>
+                    <startTime>2016-10-09T18:00:00+08:00</startTime>
+                    <endTime>2016-10-10T06:00:00+08:00</endTime>
+                    <parameter>
+                        <parameterName>50</parameterName>
+                        <parameterUnit>百分比</parameterUnit>
+</parameter>
+</time>
+</weatherElement>
+</location>
+        <location>
+            <locationName>新北市</locationName>
+            <weatherElement>
+                <elementName>Wx</elementName>
+                <time>
+                    <startTime>2016-10-09T00:00:00+08:00</startTime>
+                    <endTime>2016-10-09T06:00:00+08:00</endTime>
+                    <parameter>
+                        <parameterName>陰短暫陣雨或雷雨</parameterName>
+                        <parameterValue>36</parameterValue>
+</parameter>
+</time>
+                <time>
+                    <startTime>2016-10-09T06:00:00+08:00</startTime>
+                    <endTime>2016-10-09T18:00:00+08:00</endTime>
+                    <parameter>
+                        <parameterName>陰短暫陣雨或雷雨</parameterName>
+                        <parameterValue>36</parameterValue>
+</parameter>
+</time>
+                <time>
+                    <startTime>2016-10-09T18:00:00+08:00</startTime>
+                    <endTime>2016-10-10T06:00:00+08:00</endTime>
+                    <parameter>
+                        <parameterName>陰短暫陣雨</parameterName>
+                        <parameterValue>26</parameterValue>
+</parameter>
+</time>
+</weatherElement>
+            <weatherElement>
+                <elementName>MaxT</elementName>
+                <time>
+                    <startTime>2016-10-09T00:00:00+08:00</startTime>
+                    <endTime>2016-10-09T06:00:00+08:00</endTime>
+                    <parameter>
+                        <parameterName>25</parameterName>
+                        <parameterUnit>C</parameterUnit>
+</parameter>
+</time>
+                <time>
+                    <startTime>2016-10-09T06:00:00+08:00</startTime>
+                    <endTime>2016-10-09T18:00:00+08:00</endTime>
+                    <parameter>
+                        <parameterName>26</parameterName>
+                        <parameterUnit>C</parameterUnit>
+</parameter>
+</time>
+                <time>
+                    <startTime>2016-10-09T18:00:00+08:00</startTime>
+                    <endTime>2016-10-10T06:00:00+08:00</endTime>
+                    <parameter>
+                        <parameterName>24</parameterName>
+                        <parameterUnit>C</parameterUnit>
+</parameter>
+</time>
+</weatherElement>
+            <weatherElement>
+                <elementName>MinT</elementName>
+                <time>
+                    <startTime>2016-10-09T00:00:00+08:00</startTime>
+                    <endTime>2016-10-09T06:00:00+08:00</endTime>
+                    <parameter>
+                        <parameterName>24</parameterName>
+                        <parameterUnit>C</parameterUnit>
+</parameter>
+</time>
+                <time>
+                    <startTime>2016-10-09T06:00:00+08:00</startTime>
+                    <endTime>2016-10-09T18:00:00+08:00</endTime>
+                    <parameter>
+                        <parameterName>24</parameterName>
+                        <parameterUnit>C</parameterUnit>
+</parameter>
+</time>
+                <time>
+                    <startTime>2016-10-09T18:00:00+08:00</startTime>
+                    <endTime>2016-10-10T06:00:00+08:00</endTime>
+                    <parameter>
+                        <parameterName>23</parameterName>
+                        <parameterUnit>C</parameterUnit>
+</parameter>
+</time>
+</weatherElement>
+            <weatherElement>
+                <elementName>CI</elementName>
+                <time>
+                    <startTime>2016-10-09T00:00:00+08:00</startTime>
+                    <endTime>2016-10-09T06:00:00+08:00</endTime>
+                    <parameter>
+                        <parameterName>舒適</parameterName>
+</parameter>
+</time>
+                <time>
+                    <startTime>2016-10-09T06:00:00+08:00</startTime>
+                    <endTime>2016-10-09T18:00:00+08:00</endTime>
+                    <parameter>
+                        <parameterName>舒適</parameterName>
+</parameter>
+</time>
+                <time>
+                    <startTime>2016-10-09T18:00:00+08:00</startTime>
+                    <endTime>2016-10-10T06:00:00+08:00</endTime>
+                    <parameter>
+                        <parameterName>舒適</parameterName>
+</parameter>
+</time>
+</weatherElement>
+            <weatherElement>
+                <elementName>PoP</elementName>
+                <time>
+                    <startTime>2016-10-09T00:00:00+08:00</startTime>
+                    <endTime>2016-10-09T06:00:00+08:00</endTime>
+                    <parameter>
+                        <parameterName>60</parameterName>
+                        <parameterUnit>百分比</parameterUnit>
+</parameter>
+</time>
+                <time>
+                    <startTime>2016-10-09T06:00:00+08:00</startTime>
+                    <endTime>2016-10-09T18:00:00+08:00</endTime>
+                    <parameter>
+                        <parameterName>70</parameterName>
+                        <parameterUnit>百分比</parameterUnit>
+</parameter>
+</time>
+                <time>
+                    <startTime>2016-10-09T18:00:00+08:00</startTime>
+                    <endTime>2016-10-10T06:00:00+08:00</endTime>
+                    <parameter>
+                        <parameterName>70</parameterName>
+                        <parameterUnit>百分比</parameterUnit>
+</parameter>
+</time>
+</weatherElement>
+</location>
+        <location>
+            <locationName>桃園市</locationName>
+            <weatherElement>
+                <elementName>Wx</elementName>
+                <time>
+                    <startTime>2016-10-09T00:00:00+08:00</startTime>
+                    <endTime>2016-10-09T06:00:00+08:00</endTime>
+                    <parameter>
+                        <parameterName>陰短暫陣雨或雷雨</parameterName>
+                        <parameterValue>36</parameterValue>
+</parameter>
+</time>
+                <time>
+                    <startTime>2016-10-09T06:00:00+08:00</startTime>
+                    <endTime>2016-10-09T18:00:00+08:00</endTime>
+                    <parameter>
+                        <parameterName>陰短暫陣雨或雷雨</parameterName>
+                        <parameterValue>36</parameterValue>
+</parameter>
+</time>
+                <time>
+                    <startTime>2016-10-09T18:00:00+08:00</startTime>
+                    <endTime>2016-10-10T06:00:00+08:00</endTime>
+                    <parameter>
+                        <parameterName>陰短暫陣雨</parameterName>
+                        <parameterValue>26</parameterValue>
+</parameter>
+</time>
+</weatherElement>
+            <weatherElement>
+                <elementName>MaxT</elementName>
+                <time>
+                    <startTime>2016-10-09T00:00:00+08:00</startTime>
+                    <endTime>2016-10-09T06:00:00+08:00</endTime>
+                    <parameter>
+                        <parameterName>25</parameterName>
+                        <parameterUnit>C</parameterUnit>
+</parameter>
+</time>
+                <time>
+                    <startTime>2016-10-09T06:00:00+08:00</startTime>
+                    <endTime>2016-10-09T18:00:00+08:00</endTime>
+                    <parameter>
+                        <parameterName>26</parameterName>
+                        <parameterUnit>C</parameterUnit>
+</parameter>
+</time>
+                <time>
+                    <startTime>2016-10-09T18:00:00+08:00</startTime>
+                    <endTime>2016-10-10T06:00:00+08:00</endTime>
+                    <parameter>
+                        <parameterName>24</parameterName>
+                        <parameterUnit>C</parameterUnit>
+</parameter>
+</time>
+</weatherElement>
+            <weatherElement>
+                <elementName>MinT</elementName>
+                <time>
+                    <startTime>2016-10-09T00:00:00+08:00</startTime>
+                    <endTime>2016-10-09T06:00:00+08:00</endTime>
+                    <parameter>
+                        <parameterName>24</parameterName>
+                        <parameterUnit>C</parameterUnit>
+</parameter>
+</time>
+                <time>
+                    <startTime>2016-10-09T06:00:00+08:00</startTime>
+                    <endTime>2016-10-09T18:00:00+08:00</endTime>
+                    <parameter>
+                        <parameterName>24</parameterName>
+                        <parameterUnit>C</parameterUnit>
+</parameter>
+</time>
+                <time>
+                    <startTime>2016-10-09T18:00:00+08:00</startTime>
+                    <endTime>2016-10-10T06:00:00+08:00</endTime>
+                    <parameter>
+                        <parameterName>23</parameterName>
+                        <parameterUnit>C</parameterUnit>
+</parameter>
+</time>
+</weatherElement>
+            <weatherElement>
+                <elementName>CI</elementName>
+                <time>
+                    <startTime>2016-10-09T00:00:00+08:00</startTime>
+                    <endTime>2016-10-09T06:00:00+08:00</endTime>
+                    <parameter>
+                        <parameterName>舒適</parameterName>
+</parameter>
+</time>
+                <time>
+                    <startTime>2016-10-09T06:00:00+08:00</startTime>
+                    <endTime>2016-10-09T18:00:00+08:00</endTime>
+                    <parameter>
+                        <parameterName>舒適</parameterName>
+</parameter>
+</time>
+                <time>
+                    <startTime>2016-10-09T18:00:00+08:00</startTime>
+                    <endTime>2016-10-10T06:00:00+08:00</endTime>
+                    <parameter>
+                        <parameterName>舒適</parameterName>
+</parameter>
+</time>
+</weatherElement>
+            <weatherElement>
+                <elementName>PoP</elementName>
+                <time>
+                    <startTime>2016-10-09T00:00:00+08:00</startTime>
+                    <endTime>2016-10-09T06:00:00+08:00</endTime>
+                    <parameter>
+                        <parameterName>70</parameterName>
+                        <parameterUnit>百分比</parameterUnit>
+</parameter>
+</time>
+                <time>
+                    <startTime>2016-10-09T06:00:00+08:00</startTime>
+                    <endTime>2016-10-09T18:00:00+08:00</endTime>
+                    <parameter>
+                        <parameterName>70</parameterName>
+                        <parameterUnit>百分比</parameterUnit>
+</parameter>
+</time>
+                <time>
+                    <startTime>2016-10-09T18:00:00+08:00</startTime>
+                    <endTime>2016-10-10T06:00:00+08:00</endTime>
+                    <parameter>
+                        <parameterName>70</parameterName>
+                        <parameterUnit>百分比</parameterUnit>
+</parameter>
+</time>
+</weatherElement>
+</location>
+        <location>
+            <locationName>臺中市</locationName>
+            <weatherElement>
+                <elementName>Wx</elementName>
+                <time>
+                    <startTime>2016-10-09T00:00:00+08:00</startTime>
+                    <endTime>2016-10-09T06:00:00+08:00</endTime>
+                    <parameter>
+                        <parameterName>多雲</parameterName>
+                        <parameterValue>2</parameterValue>
+</parameter>
+</time>
+                <time>
+                    <startTime>2016-10-09T06:00:00+08:00</startTime>
+                    <endTime>2016-10-09T18:00:00+08:00</endTime>
+                    <parameter>
+                        <parameterName>多雲</parameterName>
+                        <parameterValue>2</parameterValue>
+</parameter>
+</time>
+                <time>
+                    <startTime>2016-10-09T18:00:00+08:00</startTime>
+                    <endTime>2016-10-10T06:00:00+08:00</endTime>
+                    <parameter>
+                        <parameterName>多雲</parameterName>
+                        <parameterValue>2</parameterValue>
+</parameter>
+</time>
+</weatherElement>
+            <weatherElement>
+                <elementName>MaxT</elementName>
+                <time>
+                    <startTime>2016-10-09T00:00:00+08:00</startTime>
+                    <endTime>2016-10-09T06:00:00+08:00</endTime>
+                    <parameter>
+                        <parameterName>26</parameterName>
+                        <parameterUnit>C</parameterUnit>
+</parameter>
+</time>
+                <time>
+                    <startTime>2016-10-09T06:00:00+08:00</startTime>
+                    <endTime>2016-10-09T18:00:00+08:00</endTime>
+                    <parameter>
+                        <parameterName>30</parameterName>
+                        <parameterUnit>C</parameterUnit>
+</parameter>
+</time>
+                <time>
+                    <startTime>2016-10-09T18:00:00+08:00</startTime>
+                    <endTime>2016-10-10T06:00:00+08:00</endTime>
+                    <parameter>
+                        <parameterName>27</parameterName>
+                        <parameterUnit>C</parameterUnit>
+</parameter>
+</time>
+</weatherElement>
+            <weatherElement>
+                <elementName>MinT</elementName>
+                <time>
+                    <startTime>2016-10-09T00:00:00+08:00</startTime>
+                    <endTime>2016-10-09T06:00:00+08:00</endTime>
+                    <parameter>
+                        <parameterName>26</parameterName>
+                        <parameterUnit>C</parameterUnit>
+</parameter>
+</time>
+                <time>
+                    <startTime>2016-10-09T06:00:00+08:00</startTime>
+                    <endTime>2016-10-09T18:00:00+08:00</endTime>
+                    <parameter>
+                        <parameterName>26</parameterName>
+                        <parameterUnit>C</parameterUnit>
+</parameter>
+</time>
+                <time>
+                    <startTime>2016-10-09T18:00:00+08:00</startTime>
+                    <endTime>2016-10-10T06:00:00+08:00</endTime>
+                    <parameter>
+                        <parameterName>25</parameterName>
+                        <parameterUnit>C</parameterUnit>
+</parameter>
+</time>
+</weatherElement>
+            <weatherElement>
+                <elementName>CI</elementName>
+                <time>
+                    <startTime>2016-10-09T00:00:00+08:00</startTime>
+                    <endTime>2016-10-09T06:00:00+08:00</endTime>
+                    <parameter>
+                        <parameterName>舒適</parameterName>
+</parameter>
+</time>
+                <time>
+                    <startTime>2016-10-09T06:00:00+08:00</startTime>
+                    <endTime>2016-10-09T18:00:00+08:00</endTime>
+                    <parameter>
+                        <parameterName>舒適至悶熱</parameterName>
+</parameter>
+</time>
+                <time>
+                    <startTime>2016-10-09T18:00:00+08:00</startTime>
+                    <endTime>2016-10-10T06:00:00+08:00</endTime>
+                    <parameter>
+                        <parameterName>舒適</parameterName>
+</parameter>
+</time>
+</weatherElement>
+            <weatherElement>
+                <elementName>PoP</elementName>
+                <time>
+                    <startTime>2016-10-09T00:00:00+08:00</startTime>
+                    <endTime>2016-10-09T06:00:00+08:00</endTime>
+                    <parameter>
+                        <parameterName>20</parameterName>
+                        <parameterUnit>百分比</parameterUnit>
+</parameter>
+</time>
+                <time>
+                    <startTime>2016-10-09T06:00:00+08:00</startTime>
+                    <endTime>2016-10-09T18:00:00+08:00</endTime>
+                    <parameter>
+                        <parameterName>20</parameterName>
+                        <parameterUnit>百分比</parameterUnit>
+</parameter>
+</time>
+                <time>
+                    <startTime>2016-10-09T18:00:00+08:00</startTime>
+                    <endTime>2016-10-10T06:00:00+08:00</endTime>
+                    <parameter>
+                        <parameterName>20</parameterName>
+                        <parameterUnit>百分比</parameterUnit>
+</parameter>
+</time>
+</weatherElement>
+</location>
+        <location>
+            <locationName>臺南市</locationName>
+            <weatherElement>
+                <elementName>Wx</elementName>
+                <time>
+                    <startTime>2016-10-09T00:00:00+08:00</startTime>
+                    <endTime>2016-10-09T06:00:00+08:00</endTime>
+                    <parameter>
+                        <parameterName>多雲短暫陣雨或雷雨</parameterName>
+                        <parameterValue>17</parameterValue>
+</parameter>
+</time>
+                <time>
+                    <startTime>2016-10-09T06:00:00+08:00</startTime>
+                    <endTime>2016-10-09T18:00:00+08:00</endTime>
+                    <parameter>
+                        <parameterName>多雲短暫陣雨或雷雨</parameterName>
+                        <parameterValue>17</parameterValue>
+</parameter>
+</time>
+                <time>
+                    <startTime>2016-10-09T18:00:00+08:00</startTime>
+                    <endTime>2016-10-10T06:00:00+08:00</endTime>
+                    <parameter>
+                        <parameterName>多雲短暫陣雨</parameterName>
+                        <parameterValue>12</parameterValue>
+</parameter>
+</time>
+</weatherElement>
+            <weatherElement>
+                <elementName>MaxT</elementName>
+                <time>
+                    <startTime>2016-10-09T00:00:00+08:00</startTime>
+                    <endTime>2016-10-09T06:00:00+08:00</endTime>
+                    <parameter>
+                        <parameterName>27</parameterName>
+                        <parameterUnit>C</parameterUnit>
+</parameter>
+</time>
+                <time>
+                    <startTime>2016-10-09T06:00:00+08:00</startTime>
+                    <endTime>2016-10-09T18:00:00+08:00</endTime>
+                    <parameter>
+                        <parameterName>30</parameterName>
+                        <parameterUnit>C</parameterUnit>
+</parameter>
+</time>
+                <time>
+                    <startTime>2016-10-09T18:00:00+08:00</startTime>
+                    <endTime>2016-10-10T06:00:00+08:00</endTime>
+                    <parameter>
+                        <parameterName>28</parameterName>
+                        <parameterUnit>C</parameterUnit>
+</parameter>
+</time>
+</weatherElement>
+            <weatherElement>
+                <elementName>MinT</elementName>
+                <time>
+                    <startTime>2016-10-09T00:00:00+08:00</startTime>
+                    <endTime>2016-10-09T06:00:00+08:00</endTime>
+                    <parameter>
+                        <parameterName>26</parameterName>
+                        <parameterUnit>C</parameterUnit>
+</parameter>
+</time>
+                <time>
+                    <startTime>2016-10-09T06:00:00+08:00</startTime>
+                    <endTime>2016-10-09T18:00:00+08:00</endTime>
+                    <parameter>
+                        <parameterName>26</parameterName>
+                        <parameterUnit>C</parameterUnit>
+</parameter>
+</time>
+                <time>
+                    <startTime>2016-10-09T18:00:00+08:00</startTime>
+                    <endTime>2016-10-10T06:00:00+08:00</endTime>
+                    <parameter>
+                        <parameterName>25</parameterName>
+                        <parameterUnit>C</parameterUnit>
+</parameter>
+</time>
+</weatherElement>
+            <weatherElement>
+                <elementName>CI</elementName>
+                <time>
+                    <startTime>2016-10-09T00:00:00+08:00</startTime>
+                    <endTime>2016-10-09T06:00:00+08:00</endTime>
+                    <parameter>
+                        <parameterName>舒適</parameterName>
+</parameter>
+</time>
+                <time>
+                    <startTime>2016-10-09T06:00:00+08:00</startTime>
+                    <endTime>2016-10-09T18:00:00+08:00</endTime>
+                    <parameter>
+                        <parameterName>舒適至悶熱</parameterName>
+</parameter>
+</time>
+                <time>
+                    <startTime>2016-10-09T18:00:00+08:00</startTime>
+                    <endTime>2016-10-10T06:00:00+08:00</endTime>
+                    <parameter>
+                        <parameterName>舒適至悶熱</parameterName>
+</parameter>
+</time>
+</weatherElement>
+            <weatherElement>
+                <elementName>PoP</elementName>
+                <time>
+                    <startTime>2016-10-09T00:00:00+08:00</startTime>
+                    <endTime>2016-10-09T06:00:00+08:00</endTime>
+                    <parameter>
+                        <parameterName>50</parameterName>
+                        <parameterUnit>百分比</parameterUnit>
+</parameter>
+</time>
+                <time>
+                    <startTime>2016-10-09T06:00:00+08:00</startTime>
+                    <endTime>2016-10-09T18:00:00+08:00</endTime>
+                    <parameter>
+                        <parameterName>50</parameterName>
+                        <parameterUnit>百分比</parameterUnit>
+</parameter>
+</time>
+                <time>
+                    <startTime>2016-10-09T18:00:00+08:00</startTime>
+                    <endTime>2016-10-10T06:00:00+08:00</endTime>
+                    <parameter>
+                        <parameterName>30</parameterName>
+                        <parameterUnit>百分比</parameterUnit>
+</parameter>
+</time>
+</weatherElement>
+</location>
+        <location>
+            <locationName>高雄市</locationName>
+            <weatherElement>
+                <elementName>Wx</elementName>
+                <time>
+                    <startTime>2016-10-09T00:00:00+08:00</startTime>
+                    <endTime>2016-10-09T06:00:00+08:00</endTime>
+                    <parameter>
+                        <parameterName>多雲短暫陣雨或雷雨</parameterName>
+                        <parameterValue>17</parameterValue>
+</parameter>
+</time>
+                <time>
+                    <startTime>2016-10-09T06:00:00+08:00</startTime>
+                    <endTime>2016-10-09T18:00:00+08:00</endTime>
+                    <parameter>
+                        <parameterName>多雲短暫陣雨或雷雨</parameterName>
+                        <parameterValue>17</parameterValue>
+</parameter>
+</time>
+                <time>
+                    <startTime>2016-10-09T18:00:00+08:00</startTime>
+                    <endTime>2016-10-10T06:00:00+08:00</endTime>
+                    <parameter>
+                        <parameterName>多雲短暫陣雨</parameterName>
+                        <parameterValue>12</parameterValue>
+</parameter>
+</time>
+</weatherElement>
+            <weatherElement>
+                <elementName>MaxT</elementName>
+                <time>
+                    <startTime>2016-10-09T00:00:00+08:00</startTime>
+                    <endTime>2016-10-09T06:00:00+08:00</endTime>
+                    <parameter>
+                        <parameterName>26</parameterName>
+                        <parameterUnit>C</parameterUnit>
+</parameter>
+</time>
+                <time>
+                    <startTime>2016-10-09T06:00:00+08:00</startTime>
+                    <endTime>2016-10-09T18:00:00+08:00</endTime>
+                    <parameter>
+                        <parameterName>30</parameterName>
+                        <parameterUnit>C</parameterUnit>
+</parameter>
+</time>
+                <time>
+                    <startTime>2016-10-09T18:00:00+08:00</startTime>
+                    <endTime>2016-10-10T06:00:00+08:00</endTime>
+                    <parameter>
+                        <parameterName>28</parameterName>
+                        <parameterUnit>C</parameterUnit>
+</parameter>
+</time>
+</weatherElement>
+            <weatherElement>
+                <elementName>MinT</elementName>
+                <time>
+                    <startTime>2016-10-09T00:00:00+08:00</startTime>
+                    <endTime>2016-10-09T06:00:00+08:00</endTime>
+                    <parameter>
+                        <parameterName>26</parameterName>
+                        <parameterUnit>C</parameterUnit>
+</parameter>
+</time>
+                <time>
+                    <startTime>2016-10-09T06:00:00+08:00</startTime>
+                    <endTime>2016-10-09T18:00:00+08:00</endTime>
+                    <parameter>
+                        <parameterName>26</parameterName>
+                        <parameterUnit>C</parameterUnit>
+</parameter>
+</time>
+                <time>
+                    <startTime>2016-10-09T18:00:00+08:00</startTime>
+                    <endTime>2016-10-10T06:00:00+08:00</endTime>
+                    <parameter>
+                        <parameterName>26</parameterName>
+                        <parameterUnit>C</parameterUnit>
+</parameter>
+</time>
+</weatherElement>
+            <weatherElement>
+                <elementName>CI</elementName>
+                <time>
+                    <startTime>2016-10-09T00:00:00+08:00</startTime>
+                    <endTime>2016-10-09T06:00:00+08:00</endTime>
+                    <parameter>
+                        <parameterName>舒適</parameterName>
+</parameter>
+</time>
+                <time>
+                    <startTime>2016-10-09T06:00:00+08:00</startTime>
+                    <endTime>2016-10-09T18:00:00+08:00</endTime>
+                    <parameter>
+                        <parameterName>舒適至悶熱</parameterName>
+</parameter>
+</time>
+                <time>
+                    <startTime>2016-10-09T18:00:00+08:00</startTime>
+                    <endTime>2016-10-10T06:00:00+08:00</endTime>
+                    <parameter>
+                        <parameterName>舒適至悶熱</parameterName>
+</parameter>
+</time>
+</weatherElement>
+            <weatherElement>
+                <elementName>PoP</elementName>
+                <time>
+                    <startTime>2016-10-09T00:00:00+08:00</startTime>
+                    <endTime>2016-10-09T06:00:00+08:00</endTime>
+                    <parameter>
+                        <parameterName>60</parameterName>
+                        <parameterUnit>百分比</parameterUnit>
+</parameter>
+</time>
+                <time>
+                    <startTime>2016-10-09T06:00:00+08:00</startTime>
+                    <endTime>2016-10-09T18:00:00+08:00</endTime>
+                    <parameter>
+                        <parameterName>60</parameterName>
+                        <parameterUnit>百分比</parameterUnit>
+</parameter>
+</time>
+                <time>
+                    <startTime>2016-10-09T18:00:00+08:00</startTime>
+                    <endTime>2016-10-10T06:00:00+08:00</endTime>
+                    <parameter>
+                        <parameterName>30</parameterName>
+                        <parameterUnit>百分比</parameterUnit>
+</parameter>
+</time>
+</weatherElement>
+</location>
+        <location>
+            <locationName>基隆市</locationName>
+            <weatherElement>
+                <elementName>Wx</elementName>
+                <time>
+                    <startTime>2016-10-09T00:00:00+08:00</startTime>
+                    <endTime>2016-10-09T06:00:00+08:00</endTime>
+                    <parameter>
+                        <parameterName>陰短暫陣雨或雷雨</parameterName>
+                        <parameterValue>36</parameterValue>
+</parameter>
+</time>
+                <time>
+                    <startTime>2016-10-09T06:00:00+08:00</startTime>
+                    <endTime>2016-10-09T18:00:00+08:00</endTime>
+                    <parameter>
+                        <parameterName>陰短暫陣雨或雷雨</parameterName>
+                        <parameterValue>36</parameterValue>
+</parameter>
+</time>
+                <time>
+                    <startTime>2016-10-09T18:00:00+08:00</startTime>
+                    <endTime>2016-10-10T06:00:00+08:00</endTime>
+                    <parameter>
+                        <parameterName>陰短暫陣雨</parameterName>
+                        <parameterValue>26</parameterValue>
+</parameter>
+</time>
+</weatherElement>
+            <weatherElement>
+                <elementName>MaxT</elementName>
+                <time>
+                    <startTime>2016-10-09T00:00:00+08:00</startTime>
+                    <endTime>2016-10-09T06:00:00+08:00</endTime>
+                    <parameter>
+                        <parameterName>26</parameterName>
+                        <parameterUnit>C</parameterUnit>
+</parameter>
+</time>
+                <time>
+                    <startTime>2016-10-09T06:00:00+08:00</startTime>
+                    <endTime>2016-10-09T18:00:00+08:00</endTime>
+                    <parameter>
+                        <parameterName>25</parameterName>
+                        <parameterUnit>C</parameterUnit>
+</parameter>
+</time>
+                <time>
+                    <startTime>2016-10-09T18:00:00+08:00</startTime>
+                    <endTime>2016-10-10T06:00:00+08:00</endTime>
+                    <parameter>
+                        <parameterName>25</parameterName>
+                        <parameterUnit>C</parameterUnit>
+</parameter>
+</time>
+</weatherElement>
+            <weatherElement>
+                <elementName>MinT</elementName>
+                <time>
+                    <startTime>2016-10-09T00:00:00+08:00</startTime>
+                    <endTime>2016-10-09T06:00:00+08:00</endTime>
+                    <parameter>
+                        <parameterName>24</parameterName>
+                        <parameterUnit>C</parameterUnit>
+</parameter>
+</time>
+                <time>
+                    <startTime>2016-10-09T06:00:00+08:00</startTime>
+                    <endTime>2016-10-09T18:00:00+08:00</endTime>
+                    <parameter>
+                        <parameterName>24</parameterName>
+                        <parameterUnit>C</parameterUnit>
+</parameter>
+</time>
+                <time>
+                    <startTime>2016-10-09T18:00:00+08:00</startTime>
+                    <endTime>2016-10-10T06:00:00+08:00</endTime>
+                    <parameter>
+                        <parameterName>24</parameterName>
+                        <parameterUnit>C</parameterUnit>
+</parameter>
+</time>
+</weatherElement>
+            <weatherElement>
+                <elementName>CI</elementName>
+                <time>
+                    <startTime>2016-10-09T00:00:00+08:00</startTime>
+                    <endTime>2016-10-09T06:00:00+08:00</endTime>
+                    <parameter>
+                        <parameterName>舒適</parameterName>
+</parameter>
+</time>
+                <time>
+                    <startTime>2016-10-09T06:00:00+08:00</startTime>
+                    <endTime>2016-10-09T18:00:00+08:00</endTime>
+                    <parameter>
+                        <parameterName>舒適</parameterName>
+</parameter>
+</time>
+                <time>
+                    <startTime>2016-10-09T18:00:00+08:00</startTime>
+                    <endTime>2016-10-10T06:00:00+08:00</endTime>
+                    <parameter>
+                        <parameterName>舒適</parameterName>
+</parameter>
+</time>
+</weatherElement>
+            <weatherElement>
+                <elementName>PoP</elementName>
+                <time>
+                    <startTime>2016-10-09T00:00:00+08:00</startTime>
+                    <endTime>2016-10-09T06:00:00+08:00</endTime>
+                    <parameter>
+                        <parameterName>70</parameterName>
+                        <parameterUnit>百分比</parameterUnit>
+</parameter>
+</time>
+                <time>
+                    <startTime>2016-10-09T06:00:00+08:00</startTime>
+                    <endTime>2016-10-09T18:00:00+08:00</endTime>
+                    <parameter>
+                        <parameterName>80</parameterName>
+                        <parameterUnit>百分比</parameterUnit>
+</parameter>
+</time>
+                <time>
+                    <startTime>2016-10-09T18:00:00+08:00</startTime>
+                    <endTime>2016-10-10T06:00:00+08:00</endTime>
+                    <parameter>
+                        <parameterName>70</parameterName>
+                        <parameterUnit>百分比</parameterUnit>
+</parameter>
+</time>
+</weatherElement>
+</location>
+        <location>
+            <locationName>新竹縣</locationName>
+            <weatherElement>
+                <elementName>Wx</elementName>
+                <time>
+                    <startTime>2016-10-09T00:00:00+08:00</startTime>
+                    <endTime>2016-10-09T06:00:00+08:00</endTime>
+                    <parameter>
+                        <parameterName>陰短暫陣雨或雷雨</parameterName>
+                        <parameterValue>36</parameterValue>
+</parameter>
+</time>
+                <time>
+                    <startTime>2016-10-09T06:00:00+08:00</startTime>
+                    <endTime>2016-10-09T18:00:00+08:00</endTime>
+                    <parameter>
+                        <parameterName>陰短暫陣雨或雷雨</parameterName>
+                        <parameterValue>36</parameterValue>
+</parameter>
+</time>
+                <time>
+                    <startTime>2016-10-09T18:00:00+08:00</startTime>
+                    <endTime>2016-10-10T06:00:00+08:00</endTime>
+                    <parameter>
+                        <parameterName>陰短暫陣雨</parameterName>
+                        <parameterValue>26</parameterValue>
+</parameter>
+</time>
+</weatherElement>
+            <weatherElement>
+                <elementName>MaxT</elementName>
+                <time>
+                    <startTime>2016-10-09T00:00:00+08:00</startTime>
+                    <endTime>2016-10-09T06:00:00+08:00</endTime>
+                    <parameter>
+                        <parameterName>25</parameterName>
+                        <parameterUnit>C</parameterUnit>
+</parameter>
+</time>
+                <time>
+                    <startTime>2016-10-09T06:00:00+08:00</startTime>
+                    <endTime>2016-10-09T18:00:00+08:00</endTime>
+                    <parameter>
+                        <parameterName>26</parameterName>
+                        <parameterUnit>C</parameterUnit>
+</parameter>
+</time>
+                <time>
+                    <startTime>2016-10-09T18:00:00+08:00</startTime>
+                    <endTime>2016-10-10T06:00:00+08:00</endTime>
+                    <parameter>
+                        <parameterName>24</parameterName>
+                        <parameterUnit>C</parameterUnit>
+</parameter>
+</time>
+</weatherElement>
+            <weatherElement>
+                <elementName>MinT</elementName>
+                <time>
+                    <startTime>2016-10-09T00:00:00+08:00</startTime>
+                    <endTime>2016-10-09T06:00:00+08:00</endTime>
+                    <parameter>
+                        <parameterName>24</parameterName>
+                        <parameterUnit>C</parameterUnit>
+</parameter>
+</time>
+                <time>
+                    <startTime>2016-10-09T06:00:00+08:00</startTime>
+                    <endTime>2016-10-09T18:00:00+08:00</endTime>
+                    <parameter>
+                        <parameterName>24</parameterName>
+                        <parameterUnit>C</parameterUnit>
+</parameter>
+</time>
+                <time>
+                    <startTime>2016-10-09T18:00:00+08:00</startTime>
+                    <endTime>2016-10-10T06:00:00+08:00</endTime>
+                    <parameter>
+                        <parameterName>23</parameterName>
+                        <parameterUnit>C</parameterUnit>
+</parameter>
+</time>
+</weatherElement>
+            <weatherElement>
+                <elementName>CI</elementName>
+                <time>
+                    <startTime>2016-10-09T00:00:00+08:00</startTime>
+                    <endTime>2016-10-09T06:00:00+08:00</endTime>
+                    <parameter>
+                        <parameterName>舒適</parameterName>
+</parameter>
+</time>
+                <time>
+                    <startTime>2016-10-09T06:00:00+08:00</startTime>
+                    <endTime>2016-10-09T18:00:00+08:00</endTime>
+                    <parameter>
+                        <parameterName>舒適</parameterName>
+</parameter>
+</time>
+                <time>
+                    <startTime>2016-10-09T18:00:00+08:00</startTime>
+                    <endTime>2016-10-10T06:00:00+08:00</endTime>
+                    <parameter>
+                        <parameterName>舒適</parameterName>
+</parameter>
+</time>
+</weatherElement>
+            <weatherElement>
+                <elementName>PoP</elementName>
+                <time>
+                    <startTime>2016-10-09T00:00:00+08:00</startTime>
+                    <endTime>2016-10-09T06:00:00+08:00</endTime>
+                    <parameter>
+                        <parameterName>60</parameterName>
+                        <parameterUnit>百分比</parameterUnit>
+</parameter>
+</time>
+                <time>
+                    <startTime>2016-10-09T06:00:00+08:00</startTime>
+                    <endTime>2016-10-09T18:00:00+08:00</endTime>
+                    <parameter>
+                        <parameterName>50</parameterName>
+                        <parameterUnit>百分比</parameterUnit>
+</parameter>
+</time>
+                <time>
+                    <startTime>2016-10-09T18:00:00+08:00</startTime>
+                    <endTime>2016-10-10T06:00:00+08:00</endTime>
+                    <parameter>
+                        <parameterName>30</parameterName>
+                        <parameterUnit>百分比</parameterUnit>
+</parameter>
+</time>
+</weatherElement>
+</location>
+        <location>
+            <locationName>新竹市</locationName>
+            <weatherElement>
+                <elementName>Wx</elementName>
+                <time>
+                    <startTime>2016-10-09T00:00:00+08:00</startTime>
+                    <endTime>2016-10-09T06:00:00+08:00</endTime>
+                    <parameter>
+                        <parameterName>陰短暫陣雨或雷雨</parameterName>
+                        <parameterValue>36</parameterValue>
+</parameter>
+</time>
+                <time>
+                    <startTime>2016-10-09T06:00:00+08:00</startTime>
+                    <endTime>2016-10-09T18:00:00+08:00</endTime>
+                    <parameter>
+                        <parameterName>陰短暫陣雨或雷雨</parameterName>
+                        <parameterValue>36</parameterValue>
+</parameter>
+</time>
+                <time>
+                    <startTime>2016-10-09T18:00:00+08:00</startTime>
+                    <endTime>2016-10-10T06:00:00+08:00</endTime>
+                    <parameter>
+                        <parameterName>陰短暫陣雨</parameterName>
+                        <parameterValue>26</parameterValue>
+</parameter>
+</time>
+</weatherElement>
+            <weatherElement>
+                <elementName>MaxT</elementName>
+                <time>
+                    <startTime>2016-10-09T00:00:00+08:00</startTime>
+                    <endTime>2016-10-09T06:00:00+08:00</endTime>
+                    <parameter>
+                        <parameterName>24</parameterName>
+                        <parameterUnit>C</parameterUnit>
+</parameter>
+</time>
+                <time>
+                    <startTime>2016-10-09T06:00:00+08:00</startTime>
+                    <endTime>2016-10-09T18:00:00+08:00</endTime>
+                    <parameter>
+                        <parameterName>26</parameterName>
+                        <parameterUnit>C</parameterUnit>
+</parameter>
+</time>
+                <time>
+                    <startTime>2016-10-09T18:00:00+08:00</startTime>
+                    <endTime>2016-10-10T06:00:00+08:00</endTime>
+                    <parameter>
+                        <parameterName>24</parameterName>
+                        <parameterUnit>C</parameterUnit>
+</parameter>
+</time>
+</weatherElement>
+            <weatherElement>
+                <elementName>MinT</elementName>
+                <time>
+                    <startTime>2016-10-09T00:00:00+08:00</startTime>
+                    <endTime>2016-10-09T06:00:00+08:00</endTime>
+                    <parameter>
+                        <parameterName>23</parameterName>
+                        <parameterUnit>C</parameterUnit>
+</parameter>
+</time>
+                <time>
+                    <startTime>2016-10-09T06:00:00+08:00</startTime>
+                    <endTime>2016-10-09T18:00:00+08:00</endTime>
+                    <parameter>
+                        <parameterName>23</parameterName>
+                        <parameterUnit>C</parameterUnit>
+</parameter>
+</time>
+                <time>
+                    <startTime>2016-10-09T18:00:00+08:00</startTime>
+                    <endTime>2016-10-10T06:00:00+08:00</endTime>
+                    <parameter>
+                        <parameterName>22</parameterName>
+                        <parameterUnit>C</parameterUnit>
+</parameter>
+</time>
+</weatherElement>
+            <weatherElement>
+                <elementName>CI</elementName>
+                <time>
+                    <startTime>2016-10-09T00:00:00+08:00</startTime>
+                    <endTime>2016-10-09T06:00:00+08:00</endTime>
+                    <parameter>
+                        <parameterName>舒適</parameterName>
+</parameter>
+</time>
+                <time>
+                    <startTime>2016-10-09T06:00:00+08:00</startTime>
+                    <endTime>2016-10-09T18:00:00+08:00</endTime>
+                    <parameter>
+                        <parameterName>舒適</parameterName>
+</parameter>
+</time>
+                <time>
+                    <startTime>2016-10-09T18:00:00+08:00</startTime>
+                    <endTime>2016-10-10T06:00:00+08:00</endTime>
+                    <parameter>
+                        <parameterName>舒適</parameterName>
+</parameter>
+</time>
+</weatherElement>
+            <weatherElement>
+                <elementName>PoP</elementName>
+                <time>
+                    <startTime>2016-10-09T00:00:00+08:00</startTime>
+                    <endTime>2016-10-09T06:00:00+08:00</endTime>
+                    <parameter>
+                        <parameterName>50</parameterName>
+                        <parameterUnit>百分比</parameterUnit>
+</parameter>
+</time>
+                <time>
+                    <startTime>2016-10-09T06:00:00+08:00</startTime>
+                    <endTime>2016-10-09T18:00:00+08:00</endTime>
+                    <parameter>
+                        <parameterName>40</parameterName>
+                        <parameterUnit>百分比</parameterUnit>
+</parameter>
+</time>
+                <time>
+                    <startTime>2016-10-09T18:00:00+08:00</startTime>
+                    <endTime>2016-10-10T06:00:00+08:00</endTime>
+                    <parameter>
+                        <parameterName>30</parameterName>
+                        <parameterUnit>百分比</parameterUnit>
+</parameter>
+</time>
+</weatherElement>
+</location>
+        <location>
+            <locationName>苗栗縣</locationName>
+            <weatherElement>
+                <elementName>Wx</elementName>
+                <time>
+                    <startTime>2016-10-09T00:00:00+08:00</startTime>
+                    <endTime>2016-10-09T06:00:00+08:00</endTime>
+                    <parameter>
+                        <parameterName>多雲短暫陣雨或雷雨</parameterName>
+                        <parameterValue>17</parameterValue>
+</parameter>
+</time>
+                <time>
+                    <startTime>2016-10-09T06:00:00+08:00</startTime>
+                    <endTime>2016-10-09T18:00:00+08:00</endTime>
+                    <parameter>
+                        <parameterName>多雲短暫陣雨或雷雨</parameterName>
+                        <parameterValue>17</parameterValue>
+</parameter>
+</time>
+                <time>
+                    <startTime>2016-10-09T18:00:00+08:00</startTime>
+                    <endTime>2016-10-10T06:00:00+08:00</endTime>
+                    <parameter>
+                        <parameterName>多雲短暫陣雨</parameterName>
+                        <parameterValue>12</parameterValue>
+</parameter>
+</time>
+</weatherElement>
+            <weatherElement>
+                <elementName>MaxT</elementName>
+                <time>
+                    <startTime>2016-10-09T00:00:00+08:00</startTime>
+                    <endTime>2016-10-09T06:00:00+08:00</endTime>
+                    <parameter>
+                        <parameterName>24</parameterName>
+                        <parameterUnit>C</parameterUnit>
+</parameter>
+</time>
+                <time>
+                    <startTime>2016-10-09T06:00:00+08:00</startTime>
+                    <endTime>2016-10-09T18:00:00+08:00</endTime>
+                    <parameter>
+                        <parameterName>26</parameterName>
+                        <parameterUnit>C</parameterUnit>
+</parameter>
+</time>
+                <time>
+                    <startTime>2016-10-09T18:00:00+08:00</startTime>
+                    <endTime>2016-10-10T06:00:00+08:00</endTime>
+                    <parameter>
+                        <parameterName>24</parameterName>
+                        <parameterUnit>C</parameterUnit>
+</parameter>
+</time>
+</weatherElement>
+            <weatherElement>
+                <elementName>MinT</elementName>
+                <time>
+                    <startTime>2016-10-09T00:00:00+08:00</startTime>
+                    <endTime>2016-10-09T06:00:00+08:00</endTime>
+                    <parameter>
+                        <parameterName>23</parameterName>
+                        <parameterUnit>C</parameterUnit>
+</parameter>
+</time>
+                <time>
+                    <startTime>2016-10-09T06:00:00+08:00</startTime>
+                    <endTime>2016-10-09T18:00:00+08:00</endTime>
+                    <parameter>
+                        <parameterName>23</parameterName>
+                        <parameterUnit>C</parameterUnit>
+</parameter>
+</time>
+                <time>
+                    <startTime>2016-10-09T18:00:00+08:00</startTime>
+                    <endTime>2016-10-10T06:00:00+08:00</endTime>
+                    <parameter>
+                        <parameterName>22</parameterName>
+                        <parameterUnit>C</parameterUnit>
+</parameter>
+</time>
+</weatherElement>
+            <weatherElement>
+                <elementName>CI</elementName>
+                <time>
+                    <startTime>2016-10-09T00:00:00+08:00</startTime>
+                    <endTime>2016-10-09T06:00:00+08:00</endTime>
+                    <parameter>
+                        <parameterName>舒適</parameterName>
+</parameter>
+</time>
+                <time>
+                    <startTime>2016-10-09T06:00:00+08:00</startTime>
+                    <endTime>2016-10-09T18:00:00+08:00</endTime>
+                    <parameter>
+                        <parameterName>舒適</parameterName>
+</parameter>
+</time>
+                <time>
+                    <startTime>2016-10-09T18:00:00+08:00</startTime>
+                    <endTime>2016-10-10T06:00:00+08:00</endTime>
+                    <parameter>
+                        <parameterName>舒適</parameterName>
+</parameter>
+</time>
+</weatherElement>
+            <weatherElement>
+                <elementName>PoP</elementName>
+                <time>
+                    <startTime>2016-10-09T00:00:00+08:00</startTime>
+                    <endTime>2016-10-09T06:00:00+08:00</endTime>
+                    <parameter>
+                        <parameterName>70</parameterName>
+                        <parameterUnit>百分比</parameterUnit>
+</parameter>
+</time>
+                <time>
+                    <startTime>2016-10-09T06:00:00+08:00</startTime>
+                    <endTime>2016-10-09T18:00:00+08:00</endTime>
+                    <parameter>
+                        <parameterName>40</parameterName>
+                        <parameterUnit>百分比</parameterUnit>
+</parameter>
+</time>
+                <time>
+                    <startTime>2016-10-09T18:00:00+08:00</startTime>
+                    <endTime>2016-10-10T06:00:00+08:00</endTime>
+                    <parameter>
+                        <parameterName>30</parameterName>
+                        <parameterUnit>百分比</parameterUnit>
+</parameter>
+</time>
+</weatherElement>
+</location>
+        <location>
+            <locationName>彰化縣</locationName>
+            <weatherElement>
+                <elementName>Wx</elementName>
+                <time>
+                    <startTime>2016-10-09T00:00:00+08:00</startTime>
+                    <endTime>2016-10-09T06:00:00+08:00</endTime>
+                    <parameter>
+                        <parameterName>多雲短暫陣雨或雷雨</parameterName>
+                        <parameterValue>17</parameterValue>
+</parameter>
+</time>
+                <time>
+                    <startTime>2016-10-09T06:00:00+08:00</startTime>
+                    <endTime>2016-10-09T18:00:00+08:00</endTime>
+                    <parameter>
+                        <parameterName>多雲</parameterName>
+                        <parameterValue>2</parameterValue>
+</parameter>
+</time>
+                <time>
+                    <startTime>2016-10-09T18:00:00+08:00</startTime>
+                    <endTime>2016-10-10T06:00:00+08:00</endTime>
+                    <parameter>
+                        <parameterName>多雲</parameterName>
+                        <parameterValue>2</parameterValue>
+</parameter>
+</time>
+</weatherElement>
+            <weatherElement>
+                <elementName>MaxT</elementName>
+                <time>
+                    <startTime>2016-10-09T00:00:00+08:00</startTime>
+                    <endTime>2016-10-09T06:00:00+08:00</endTime>
+                    <parameter>
+                        <parameterName>26</parameterName>
+                        <parameterUnit>C</parameterUnit>
+</parameter>
+</time>
+                <time>
+                    <startTime>2016-10-09T06:00:00+08:00</startTime>
+                    <endTime>2016-10-09T18:00:00+08:00</endTime>
+                    <parameter>
+                        <parameterName>29</parameterName>
+                        <parameterUnit>C</parameterUnit>
+</parameter>
+</time>
+                <time>
+                    <startTime>2016-10-09T18:00:00+08:00</startTime>
+                    <endTime>2016-10-10T06:00:00+08:00</endTime>
+                    <parameter>
+                        <parameterName>27</parameterName>
+                        <parameterUnit>C</parameterUnit>
+</parameter>
+</time>
+</weatherElement>
+            <weatherElement>
+                <elementName>MinT</elementName>
+                <time>
+                    <startTime>2016-10-09T00:00:00+08:00</startTime>
+                    <endTime>2016-10-09T06:00:00+08:00</endTime>
+                    <parameter>
+                        <parameterName>25</parameterName>
+                        <parameterUnit>C</parameterUnit>
+</parameter>
+</time>
+                <time>
+                    <startTime>2016-10-09T06:00:00+08:00</startTime>
+                    <endTime>2016-10-09T18:00:00+08:00</endTime>
+                    <parameter>
+                        <parameterName>25</parameterName>
+                        <parameterUnit>C</parameterUnit>
+</parameter>
+</time>
+                <time>
+                    <startTime>2016-10-09T18:00:00+08:00</startTime>
+                    <endTime>2016-10-10T06:00:00+08:00</endTime>
+                    <parameter>
+                        <parameterName>25</parameterName>
+                        <parameterUnit>C</parameterUnit>
+</parameter>
+</time>
+</weatherElement>
+            <weatherElement>
+                <elementName>CI</elementName>
+                <time>
+                    <startTime>2016-10-09T00:00:00+08:00</startTime>
+                    <endTime>2016-10-09T06:00:00+08:00</endTime>
+                    <parameter>
+                        <parameterName>舒適</parameterName>
+</parameter>
+</time>
+                <time>
+                    <startTime>2016-10-09T06:00:00+08:00</startTime>
+                    <endTime>2016-10-09T18:00:00+08:00</endTime>
+                    <parameter>
+                        <parameterName>舒適至悶熱</parameterName>
+</parameter>
+</time>
+                <time>
+                    <startTime>2016-10-09T18:00:00+08:00</startTime>
+                    <endTime>2016-10-10T06:00:00+08:00</endTime>
+                    <parameter>
+                        <parameterName>舒適</parameterName>
+</parameter>
+</time>
+</weatherElement>
+            <weatherElement>
+                <elementName>PoP</elementName>
+                <time>
+                    <startTime>2016-10-09T00:00:00+08:00</startTime>
+                    <endTime>2016-10-09T06:00:00+08:00</endTime>
+                    <parameter>
+                        <parameterName>30</parameterName>
+                        <parameterUnit>百分比</parameterUnit>
+</parameter>
+</time>
+                <time>
+                    <startTime>2016-10-09T06:00:00+08:00</startTime>
+                    <endTime>2016-10-09T18:00:00+08:00</endTime>
+                    <parameter>
+                        <parameterName>20</parameterName>
+                        <parameterUnit>百分比</parameterUnit>
+</parameter>
+</time>
+                <time>
+                    <startTime>2016-10-09T18:00:00+08:00</startTime>
+                    <endTime>2016-10-10T06:00:00+08:00</endTime>
+                    <parameter>
+                        <parameterName>20</parameterName>
+                        <parameterUnit>百分比</parameterUnit>
+</parameter>
+</time>
+</weatherElement>
+</location>
+        <location>
+            <locationName>南投縣</locationName>
+            <weatherElement>
+                <elementName>Wx</elementName>
+                <time>
+                    <startTime>2016-10-09T00:00:00+08:00</startTime>
+                    <endTime>2016-10-09T06:00:00+08:00</endTime>
+                    <parameter>
+                        <parameterName>多雲</parameterName>
+                        <parameterValue>2</parameterValue>
+</parameter>
+</time>
+                <time>
+                    <startTime>2016-10-09T06:00:00+08:00</startTime>
+                    <endTime>2016-10-09T18:00:00+08:00</endTime>
+                    <parameter>
+                        <parameterName>多雲短暫陣雨或雷雨</parameterName>
+                        <parameterValue>17</parameterValue>
+</parameter>
+</time>
+                <time>
+                    <startTime>2016-10-09T18:00:00+08:00</startTime>
+                    <endTime>2016-10-10T06:00:00+08:00</endTime>
+                    <parameter>
+                        <parameterName>多雲</parameterName>
+                        <parameterValue>2</parameterValue>
+</parameter>
+</time>
+</weatherElement>
+            <weatherElement>
+                <elementName>MaxT</elementName>
+                <time>
+                    <startTime>2016-10-09T00:00:00+08:00</startTime>
+                    <endTime>2016-10-09T06:00:00+08:00</endTime>
+                    <parameter>
+                        <parameterName>25</parameterName>
+                        <parameterUnit>C</parameterUnit>
+</parameter>
+</time>
+                <time>
+                    <startTime>2016-10-09T06:00:00+08:00</startTime>
+                    <endTime>2016-10-09T18:00:00+08:00</endTime>
+                    <parameter>
+                        <parameterName>30</parameterName>
+                        <parameterUnit>C</parameterUnit>
+</parameter>
+</time>
+                <time>
+                    <startTime>2016-10-09T18:00:00+08:00</startTime>
+                    <endTime>2016-10-10T06:00:00+08:00</endTime>
+                    <parameter>
+                        <parameterName>28</parameterName>
+                        <parameterUnit>C</parameterUnit>
+</parameter>
+</time>
+</weatherElement>
+            <weatherElement>
+                <elementName>MinT</elementName>
+                <time>
+                    <startTime>2016-10-09T00:00:00+08:00</startTime>
+                    <endTime>2016-10-09T06:00:00+08:00</endTime>
+                    <parameter>
+                        <parameterName>25</parameterName>
+                        <parameterUnit>C</parameterUnit>
+</parameter>
+</time>
+                <time>
+                    <startTime>2016-10-09T06:00:00+08:00</startTime>
+                    <endTime>2016-10-09T18:00:00+08:00</endTime>
+                    <parameter>
+                        <parameterName>25</parameterName>
+                        <parameterUnit>C</parameterUnit>
+</parameter>
+</time>
+                <time>
+                    <startTime>2016-10-09T18:00:00+08:00</startTime>
+                    <endTime>2016-10-10T06:00:00+08:00</endTime>
+                    <parameter>
+                        <parameterName>24</parameterName>
+                        <parameterUnit>C</parameterUnit>
+</parameter>
+</time>
+</weatherElement>
+            <weatherElement>
+                <elementName>CI</elementName>
+                <time>
+                    <startTime>2016-10-09T00:00:00+08:00</startTime>
+                    <endTime>2016-10-09T06:00:00+08:00</endTime>
+                    <parameter>
+                        <parameterName>舒適</parameterName>
+</parameter>
+</time>
+                <time>
+                    <startTime>2016-10-09T06:00:00+08:00</startTime>
+                    <endTime>2016-10-09T18:00:00+08:00</endTime>
+                    <parameter>
+                        <parameterName>舒適至悶熱</parameterName>
+</parameter>
+</time>
+                <time>
+                    <startTime>2016-10-09T18:00:00+08:00</startTime>
+                    <endTime>2016-10-10T06:00:00+08:00</endTime>
+                    <parameter>
+                        <parameterName>舒適至悶熱</parameterName>
+</parameter>
+</time>
+</weatherElement>
+            <weatherElement>
+                <elementName>PoP</elementName>
+                <time>
+                    <startTime>2016-10-09T00:00:00+08:00</startTime>
+                    <endTime>2016-10-09T06:00:00+08:00</endTime>
+                    <parameter>
+                        <parameterName>20</parameterName>
+                        <parameterUnit>百分比</parameterUnit>
+</parameter>
+</time>
+                <time>
+                    <startTime>2016-10-09T06:00:00+08:00</startTime>
+                    <endTime>2016-10-09T18:00:00+08:00</endTime>
+                    <parameter>
+                        <parameterName>30</parameterName>
+                        <parameterUnit>百分比</parameterUnit>
+</parameter>
+</time>
+                <time>
+                    <startTime>2016-10-09T18:00:00+08:00</startTime>
+                    <endTime>2016-10-10T06:00:00+08:00</endTime>
+                    <parameter>
+                        <parameterName>20</parameterName>
+                        <parameterUnit>百分比</parameterUnit>
+</parameter>
+</time>
+</weatherElement>
+</location>
+        <location>
+            <locationName>雲林縣</locationName>
+            <weatherElement>
+                <elementName>Wx</elementName>
+                <time>
+                    <startTime>2016-10-09T00:00:00+08:00</startTime>
+                    <endTime>2016-10-09T06:00:00+08:00</endTime>
+                    <parameter>
+                        <parameterName>多雲短暫陣雨或雷雨</parameterName>
+                        <parameterValue>17</parameterValue>
+</parameter>
+</time>
+                <time>
+                    <startTime>2016-10-09T06:00:00+08:00</startTime>
+                    <endTime>2016-10-09T18:00:00+08:00</endTime>
+                    <parameter>
+                        <parameterName>多雲短暫陣雨或雷雨</parameterName>
+                        <parameterValue>17</parameterValue>
+</parameter>
+</time>
+                <time>
+                    <startTime>2016-10-09T18:00:00+08:00</startTime>
+                    <endTime>2016-10-10T06:00:00+08:00</endTime>
+                    <parameter>
+                        <parameterName>多雲</parameterName>
+                        <parameterValue>2</parameterValue>
+</parameter>
+</time>
+</weatherElement>
+            <weatherElement>
+                <elementName>MaxT</elementName>
+                <time>
+                    <startTime>2016-10-09T00:00:00+08:00</startTime>
+                    <endTime>2016-10-09T06:00:00+08:00</endTime>
+                    <parameter>
+                        <parameterName>25</parameterName>
+                        <parameterUnit>C</parameterUnit>
+</parameter>
+</time>
+                <time>
+                    <startTime>2016-10-09T06:00:00+08:00</startTime>
+                    <endTime>2016-10-09T18:00:00+08:00</endTime>
+                    <parameter>
+                        <parameterName>30</parameterName>
+                        <parameterUnit>C</parameterUnit>
+</parameter>
+</time>
+                <time>
+                    <startTime>2016-10-09T18:00:00+08:00</startTime>
+                    <endTime>2016-10-10T06:00:00+08:00</endTime>
+                    <parameter>
+                        <parameterName>27</parameterName>
+                        <parameterUnit>C</parameterUnit>
+</parameter>
+</time>
+</weatherElement>
+            <weatherElement>
+                <elementName>MinT</elementName>
+                <time>
+                    <startTime>2016-10-09T00:00:00+08:00</startTime>
+                    <endTime>2016-10-09T06:00:00+08:00</endTime>
+                    <parameter>
+                        <parameterName>25</parameterName>
+                        <parameterUnit>C</parameterUnit>
+</parameter>
+</time>
+                <time>
+                    <startTime>2016-10-09T06:00:00+08:00</startTime>
+                    <endTime>2016-10-09T18:00:00+08:00</endTime>
+                    <parameter>
+                        <parameterName>25</parameterName>
+                        <parameterUnit>C</parameterUnit>
+</parameter>
+</time>
+                <time>
+                    <startTime>2016-10-09T18:00:00+08:00</startTime>
+                    <endTime>2016-10-10T06:00:00+08:00</endTime>
+                    <parameter>
+                        <parameterName>25</parameterName>
+                        <parameterUnit>C</parameterUnit>
+</parameter>
+</time>
+</weatherElement>
+            <weatherElement>
+                <elementName>CI</elementName>
+                <time>
+                    <startTime>2016-10-09T00:00:00+08:00</startTime>
+                    <endTime>2016-10-09T06:00:00+08:00</endTime>
+                    <parameter>
+                        <parameterName>舒適</parameterName>
+</parameter>
+</time>
+                <time>
+                    <startTime>2016-10-09T06:00:00+08:00</startTime>
+                    <endTime>2016-10-09T18:00:00+08:00</endTime>
+                    <parameter>
+                        <parameterName>舒適至悶熱</parameterName>
+</parameter>
+</time>
+                <time>
+                    <startTime>2016-10-09T18:00:00+08:00</startTime>
+                    <endTime>2016-10-10T06:00:00+08:00</endTime>
+                    <parameter>
+                        <parameterName>舒適</parameterName>
+</parameter>
+</time>
+</weatherElement>
+            <weatherElement>
+                <elementName>PoP</elementName>
+                <time>
+                    <startTime>2016-10-09T00:00:00+08:00</startTime>
+                    <endTime>2016-10-09T06:00:00+08:00</endTime>
+                    <parameter>
+                        <parameterName>30</parameterName>
+                        <parameterUnit>百分比</parameterUnit>
+</parameter>
+</time>
+                <time>
+                    <startTime>2016-10-09T06:00:00+08:00</startTime>
+                    <endTime>2016-10-09T18:00:00+08:00</endTime>
+                    <parameter>
+                        <parameterName>30</parameterName>
+                        <parameterUnit>百分比</parameterUnit>
+</parameter>
+</time>
+                <time>
+                    <startTime>2016-10-09T18:00:00+08:00</startTime>
+                    <endTime>2016-10-10T06:00:00+08:00</endTime>
+                    <parameter>
+                        <parameterName>20</parameterName>
+                        <parameterUnit>百分比</parameterUnit>
+</parameter>
+</time>
+</weatherElement>
+</location>
+        <location>
+            <locationName>嘉義縣</locationName>
+            <weatherElement>
+                <elementName>Wx</elementName>
+                <time>
+                    <startTime>2016-10-09T00:00:00+08:00</startTime>
+                    <endTime>2016-10-09T06:00:00+08:00</endTime>
+                    <parameter>
+                        <parameterName>多雲短暫陣雨或雷雨</parameterName>
+                        <parameterValue>17</parameterValue>
+</parameter>
+</time>
+                <time>
+                    <startTime>2016-10-09T06:00:00+08:00</startTime>
+                    <endTime>2016-10-09T18:00:00+08:00</endTime>
+                    <parameter>
+                        <parameterName>多雲短暫陣雨或雷雨</parameterName>
+                        <parameterValue>17</parameterValue>
+</parameter>
+</time>
+                <time>
+                    <startTime>2016-10-09T18:00:00+08:00</startTime>
+                    <endTime>2016-10-10T06:00:00+08:00</endTime>
+                    <parameter>
+                        <parameterName>多雲</parameterName>
+                        <parameterValue>2</parameterValue>
+</parameter>
+</time>
+</weatherElement>
+            <weatherElement>
+                <elementName>MaxT</elementName>
+                <time>
+                    <startTime>2016-10-09T00:00:00+08:00</startTime>
+                    <endTime>2016-10-09T06:00:00+08:00</endTime>
+                    <parameter>
+                        <parameterName>25</parameterName>
+                        <parameterUnit>C</parameterUnit>
+</parameter>
+</time>
+                <time>
+                    <startTime>2016-10-09T06:00:00+08:00</startTime>
+                    <endTime>2016-10-09T18:00:00+08:00</endTime>
+                    <parameter>
+                        <parameterName>30</parameterName>
+                        <parameterUnit>C</parameterUnit>
+</parameter>
+</time>
+                <time>
+                    <startTime>2016-10-09T18:00:00+08:00</startTime>
+                    <endTime>2016-10-10T06:00:00+08:00</endTime>
+                    <parameter>
+                        <parameterName>27</parameterName>
+                        <parameterUnit>C</parameterUnit>
+</parameter>
+</time>
+</weatherElement>
+            <weatherElement>
+                <elementName>MinT</elementName>
+                <time>
+                    <startTime>2016-10-09T00:00:00+08:00</startTime>
+                    <endTime>2016-10-09T06:00:00+08:00</endTime>
+                    <parameter>
+                        <parameterName>25</parameterName>
+                        <parameterUnit>C</parameterUnit>
+</parameter>
+</time>
+                <time>
+                    <startTime>2016-10-09T06:00:00+08:00</startTime>
+                    <endTime>2016-10-09T18:00:00+08:00</endTime>
+                    <parameter>
+                        <parameterName>25</parameterName>
+                        <parameterUnit>C</parameterUnit>
+</parameter>
+</time>
+                <time>
+                    <startTime>2016-10-09T18:00:00+08:00</startTime>
+                    <endTime>2016-10-10T06:00:00+08:00</endTime>
+                    <parameter>
+                        <parameterName>24</parameterName>
+                        <parameterUnit>C</parameterUnit>
+</parameter>
+</time>
+</weatherElement>
+            <weatherElement>
+                <elementName>CI</elementName>
+                <time>
+                    <startTime>2016-10-09T00:00:00+08:00</startTime>
+                    <endTime>2016-10-09T06:00:00+08:00</endTime>
+                    <parameter>
+                        <parameterName>舒適</parameterName>
+</parameter>
+</time>
+                <time>
+                    <startTime>2016-10-09T06:00:00+08:00</startTime>
+                    <endTime>2016-10-09T18:00:00+08:00</endTime>
+                    <parameter>
+                        <parameterName>舒適至悶熱</parameterName>
+</parameter>
+</time>
+                <time>
+                    <startTime>2016-10-09T18:00:00+08:00</startTime>
+                    <endTime>2016-10-10T06:00:00+08:00</endTime>
+                    <parameter>
+                        <parameterName>舒適至悶熱</parameterName>
+</parameter>
+</time>
+</weatherElement>
+            <weatherElement>
+                <elementName>PoP</elementName>
+                <time>
+                    <startTime>2016-10-09T00:00:00+08:00</startTime>
+                    <endTime>2016-10-09T06:00:00+08:00</endTime>
+                    <parameter>
+                        <parameterName>30</parameterName>
+                        <parameterUnit>百分比</parameterUnit>
+</parameter>
+</time>
+                <time>
+                    <startTime>2016-10-09T06:00:00+08:00</startTime>
+                    <endTime>2016-10-09T18:00:00+08:00</endTime>
+                    <parameter>
+                        <parameterName>40</parameterName>
+                        <parameterUnit>百分比</parameterUnit>
+</parameter>
+</time>
+                <time>
+                    <startTime>2016-10-09T18:00:00+08:00</startTime>
+                    <endTime>2016-10-10T06:00:00+08:00</endTime>
+                    <parameter>
+                        <parameterName>20</parameterName>
+                        <parameterUnit>百分比</parameterUnit>
+</parameter>
+</time>
+</weatherElement>
+</location>
+        <location>
+            <locationName>嘉義市</locationName>
+            <weatherElement>
+                <elementName>Wx</elementName>
+                <time>
+                    <startTime>2016-10-09T00:00:00+08:00</startTime>
+                    <endTime>2016-10-09T06:00:00+08:00</endTime>
+                    <parameter>
+                        <parameterName>多雲短暫陣雨或雷雨</parameterName>
+                        <parameterValue>17</parameterValue>
+</parameter>
+</time>
+                <time>
+                    <startTime>2016-10-09T06:00:00+08:00</startTime>
+                    <endTime>2016-10-09T18:00:00+08:00</endTime>
+                    <parameter>
+                        <parameterName>多雲短暫陣雨或雷雨</parameterName>
+                        <parameterValue>17</parameterValue>
+</parameter>
+</time>
+                <time>
+                    <startTime>2016-10-09T18:00:00+08:00</startTime>
+                    <endTime>2016-10-10T06:00:00+08:00</endTime>
+                    <parameter>
+                        <parameterName>多雲</parameterName>
+                        <parameterValue>2</parameterValue>
+</parameter>
+</time>
+</weatherElement>
+            <weatherElement>
+                <elementName>MaxT</elementName>
+                <time>
+                    <startTime>2016-10-09T00:00:00+08:00</startTime>
+                    <endTime>2016-10-09T06:00:00+08:00</endTime>
+                    <parameter>
+                        <parameterName>25</parameterName>
+                        <parameterUnit>C</parameterUnit>
+</parameter>
+</time>
+                <time>
+                    <startTime>2016-10-09T06:00:00+08:00</startTime>
+                    <endTime>2016-10-09T18:00:00+08:00</endTime>
+                    <parameter>
+                        <parameterName>30</parameterName>
+                        <parameterUnit>C</parameterUnit>
+</parameter>
+</time>
+                <time>
+                    <startTime>2016-10-09T18:00:00+08:00</startTime>
+                    <endTime>2016-10-10T06:00:00+08:00</endTime>
+                    <parameter>
+                        <parameterName>27</parameterName>
+                        <parameterUnit>C</parameterUnit>
+</parameter>
+</time>
+</weatherElement>
+            <weatherElement>
+                <elementName>MinT</elementName>
+                <time>
+                    <startTime>2016-10-09T00:00:00+08:00</startTime>
+                    <endTime>2016-10-09T06:00:00+08:00</endTime>
+                    <parameter>
+                        <parameterName>25</parameterName>
+                        <parameterUnit>C</parameterUnit>
+</parameter>
+</time>
+                <time>
+                    <startTime>2016-10-09T06:00:00+08:00</startTime>
+                    <endTime>2016-10-09T18:00:00+08:00</endTime>
+                    <parameter>
+                        <parameterName>25</parameterName>
+                        <parameterUnit>C</parameterUnit>
+</parameter>
+</time>
+                <time>
+                    <startTime>2016-10-09T18:00:00+08:00</startTime>
+                    <endTime>2016-10-10T06:00:00+08:00</endTime>
+                    <parameter>
+                        <parameterName>24</parameterName>
+                        <parameterUnit>C</parameterUnit>
+</parameter>
+</time>
+</weatherElement>
+            <weatherElement>
+                <elementName>CI</elementName>
+                <time>
+                    <startTime>2016-10-09T00:00:00+08:00</startTime>
+                    <endTime>2016-10-09T06:00:00+08:00</endTime>
+                    <parameter>
+                        <parameterName>舒適</parameterName>
+</parameter>
+</time>
+                <time>
+                    <startTime>2016-10-09T06:00:00+08:00</startTime>
+                    <endTime>2016-10-09T18:00:00+08:00</endTime>
+                    <parameter>
+                        <parameterName>舒適至悶熱</parameterName>
+</parameter>
+</time>
+                <time>
+                    <startTime>2016-10-09T18:00:00+08:00</startTime>
+                    <endTime>2016-10-10T06:00:00+08:00</endTime>
+                    <parameter>
+                        <parameterName>舒適至悶熱</parameterName>
+</parameter>
+</time>
+</weatherElement>
+            <weatherElement>
+                <elementName>PoP</elementName>
+                <time>
+                    <startTime>2016-10-09T00:00:00+08:00</startTime>
+                    <endTime>2016-10-09T06:00:00+08:00</endTime>
+                    <parameter>
+                        <parameterName>30</parameterName>
+                        <parameterUnit>百分比</parameterUnit>
+</parameter>
+</time>
+                <time>
+                    <startTime>2016-10-09T06:00:00+08:00</startTime>
+                    <endTime>2016-10-09T18:00:00+08:00</endTime>
+                    <parameter>
+                        <parameterName>50</parameterName>
+                        <parameterUnit>百分比</parameterUnit>
+</parameter>
+</time>
+                <time>
+                    <startTime>2016-10-09T18:00:00+08:00</startTime>
+                    <endTime>2016-10-10T06:00:00+08:00</endTime>
+                    <parameter>
+                        <parameterName>20</parameterName>
+                        <parameterUnit>百分比</parameterUnit>
+</parameter>
+</time>
+</weatherElement>
+</location>
+        <location>
+            <locationName>屏東縣</locationName>
+            <weatherElement>
+                <elementName>Wx</elementName>
+                <time>
+                    <startTime>2016-10-09T00:00:00+08:00</startTime>
+                    <endTime>2016-10-09T06:00:00+08:00</endTime>
+                    <parameter>
+                        <parameterName>多雲短暫陣雨或雷雨</parameterName>
+                        <parameterValue>17</parameterValue>
+</parameter>
+</time>
+                <time>
+                    <startTime>2016-10-09T06:00:00+08:00</startTime>
+                    <endTime>2016-10-09T18:00:00+08:00</endTime>
+                    <parameter>
+                        <parameterName>多雲短暫陣雨或雷雨</parameterName>
+                        <parameterValue>17</parameterValue>
+</parameter>
+</time>
+                <time>
+                    <startTime>2016-10-09T18:00:00+08:00</startTime>
+                    <endTime>2016-10-10T06:00:00+08:00</endTime>
+                    <parameter>
+                        <parameterName>多雲短暫陣雨</parameterName>
+                        <parameterValue>12</parameterValue>
+</parameter>
+</time>
+</weatherElement>
+            <weatherElement>
+                <elementName>MaxT</elementName>
+                <time>
+                    <startTime>2016-10-09T00:00:00+08:00</startTime>
+                    <endTime>2016-10-09T06:00:00+08:00</endTime>
+                    <parameter>
+                        <parameterName>25</parameterName>
+                        <parameterUnit>C</parameterUnit>
+</parameter>
+</time>
+                <time>
+                    <startTime>2016-10-09T06:00:00+08:00</startTime>
+                    <endTime>2016-10-09T18:00:00+08:00</endTime>
+                    <parameter>
+                        <parameterName>31</parameterName>
+                        <parameterUnit>C</parameterUnit>
+</parameter>
+</time>
+                <time>
+                    <startTime>2016-10-09T18:00:00+08:00</startTime>
+                    <endTime>2016-10-10T06:00:00+08:00</endTime>
+                    <parameter>
+                        <parameterName>28</parameterName>
+                        <parameterUnit>C</parameterUnit>
+</parameter>
+</time>
+</weatherElement>
+            <weatherElement>
+                <elementName>MinT</elementName>
+                <time>
+                    <startTime>2016-10-09T00:00:00+08:00</startTime>
+                    <endTime>2016-10-09T06:00:00+08:00</endTime>
+                    <parameter>
+                        <parameterName>24</parameterName>
+                        <parameterUnit>C</parameterUnit>
+</parameter>
+</time>
+                <time>
+                    <startTime>2016-10-09T06:00:00+08:00</startTime>
+                    <endTime>2016-10-09T18:00:00+08:00</endTime>
+                    <parameter>
+                        <parameterName>24</parameterName>
+                        <parameterUnit>C</parameterUnit>
+</parameter>
+</time>
+                <time>
+                    <startTime>2016-10-09T18:00:00+08:00</startTime>
+                    <endTime>2016-10-10T06:00:00+08:00</endTime>
+                    <parameter>
+                        <parameterName>24</parameterName>
+                        <parameterUnit>C</parameterUnit>
+</parameter>
+</time>
+</weatherElement>
+            <weatherElement>
+                <elementName>CI</elementName>
+                <time>
+                    <startTime>2016-10-09T00:00:00+08:00</startTime>
+                    <endTime>2016-10-09T06:00:00+08:00</endTime>
+                    <parameter>
+                        <parameterName>舒適</parameterName>
+</parameter>
+</time>
+                <time>
+                    <startTime>2016-10-09T06:00:00+08:00</startTime>
+                    <endTime>2016-10-09T18:00:00+08:00</endTime>
+                    <parameter>
+                        <parameterName>舒適至悶熱</parameterName>
+</parameter>
+</time>
+                <time>
+                    <startTime>2016-10-09T18:00:00+08:00</startTime>
+                    <endTime>2016-10-10T06:00:00+08:00</endTime>
+                    <parameter>
+                        <parameterName>舒適至悶熱</parameterName>
+</parameter>
+</time>
+</weatherElement>
+            <weatherElement>
+                <elementName>PoP</elementName>
+                <time>
+                    <startTime>2016-10-09T00:00:00+08:00</startTime>
+                    <endTime>2016-10-09T06:00:00+08:00</endTime>
+                    <parameter>
+                        <parameterName>50</parameterName>
+                        <parameterUnit>百分比</parameterUnit>
+</parameter>
+</time>
+                <time>
+                    <startTime>2016-10-09T06:00:00+08:00</startTime>
+                    <endTime>2016-10-09T18:00:00+08:00</endTime>
+                    <parameter>
+                        <parameterName>60</parameterName>
+                        <parameterUnit>百分比</parameterUnit>
+</parameter>
+</time>
+                <time>
+                    <startTime>2016-10-09T18:00:00+08:00</startTime>
+                    <endTime>2016-10-10T06:00:00+08:00</endTime>
+                    <parameter>
+                        <parameterName>30</parameterName>
+                        <parameterUnit>百分比</parameterUnit>
+</parameter>
+</time>
+</weatherElement>
+</location>
+        <location>
+            <locationName>宜蘭縣</locationName>
+            <weatherElement>
+                <elementName>Wx</elementName>
+                <time>
+                    <startTime>2016-10-09T00:00:00+08:00</startTime>
+                    <endTime>2016-10-09T06:00:00+08:00</endTime>
+                    <parameter>
+                        <parameterName>陰短暫陣雨或雷雨</parameterName>
+                        <parameterValue>36</parameterValue>
+</parameter>
+</time>
+                <time>
+                    <startTime>2016-10-09T06:00:00+08:00</startTime>
+                    <endTime>2016-10-09T18:00:00+08:00</endTime>
+                    <parameter>
+                        <parameterName>陰短暫陣雨或雷雨</parameterName>
+                        <parameterValue>36</parameterValue>
+</parameter>
+</time>
+                <time>
+                    <startTime>2016-10-09T18:00:00+08:00</startTime>
+                    <endTime>2016-10-10T06:00:00+08:00</endTime>
+                    <parameter>
+                        <parameterName>陰短暫陣雨</parameterName>
+                        <parameterValue>26</parameterValue>
+</parameter>
+</time>
+</weatherElement>
+            <weatherElement>
+                <elementName>MaxT</elementName>
+                <time>
+                    <startTime>2016-10-09T00:00:00+08:00</startTime>
+                    <endTime>2016-10-09T06:00:00+08:00</endTime>
+                    <parameter>
+                        <parameterName>25</parameterName>
+                        <parameterUnit>C</parameterUnit>
+</parameter>
+</time>
+                <time>
+                    <startTime>2016-10-09T06:00:00+08:00</startTime>
+                    <endTime>2016-10-09T18:00:00+08:00</endTime>
+                    <parameter>
+                        <parameterName>26</parameterName>
+                        <parameterUnit>C</parameterUnit>
+</parameter>
+</time>
+                <time>
+                    <startTime>2016-10-09T18:00:00+08:00</startTime>
+                    <endTime>2016-10-10T06:00:00+08:00</endTime>
+                    <parameter>
+                        <parameterName>24</parameterName>
+                        <parameterUnit>C</parameterUnit>
+</parameter>
+</time>
+</weatherElement>
+            <weatherElement>
+                <elementName>MinT</elementName>
+                <time>
+                    <startTime>2016-10-09T00:00:00+08:00</startTime>
+                    <endTime>2016-10-09T06:00:00+08:00</endTime>
+                    <parameter>
+                        <parameterName>25</parameterName>
+                        <parameterUnit>C</parameterUnit>
+</parameter>
+</time>
+                <time>
+                    <startTime>2016-10-09T06:00:00+08:00</startTime>
+                    <endTime>2016-10-09T18:00:00+08:00</endTime>
+                    <parameter>
+                        <parameterName>24</parameterName>
+                        <parameterUnit>C</parameterUnit>
+</parameter>
+</time>
+                <time>
+                    <startTime>2016-10-09T18:00:00+08:00</startTime>
+                    <endTime>2016-10-10T06:00:00+08:00</endTime>
+                    <parameter>
+                        <parameterName>23</parameterName>
+                        <parameterUnit>C</parameterUnit>
+</parameter>
+</time>
+</weatherElement>
+            <weatherElement>
+                <elementName>CI</elementName>
+                <time>
+                    <startTime>2016-10-09T00:00:00+08:00</startTime>
+                    <endTime>2016-10-09T06:00:00+08:00</endTime>
+                    <parameter>
+                        <parameterName>舒適</parameterName>
+</parameter>
+</time>
+                <time>
+                    <startTime>2016-10-09T06:00:00+08:00</startTime>
+                    <endTime>2016-10-09T18:00:00+08:00</endTime>
+                    <parameter>
+                        <parameterName>舒適</parameterName>
+</parameter>
+</time>
+                <time>
+                    <startTime>2016-10-09T18:00:00+08:00</startTime>
+                    <endTime>2016-10-10T06:00:00+08:00</endTime>
+                    <parameter>
+                        <parameterName>舒適</parameterName>
+</parameter>
+</time>
+</weatherElement>
+            <weatherElement>
+                <elementName>PoP</elementName>
+                <time>
+                    <startTime>2016-10-09T00:00:00+08:00</startTime>
+                    <endTime>2016-10-09T06:00:00+08:00</endTime>
+                    <parameter>
+                        <parameterName>70</parameterName>
+                        <parameterUnit>百分比</parameterUnit>
+</parameter>
+</time>
+                <time>
+                    <startTime>2016-10-09T06:00:00+08:00</startTime>
+                    <endTime>2016-10-09T18:00:00+08:00</endTime>
+                    <parameter>
+                        <parameterName>70</parameterName>
+                        <parameterUnit>百分比</parameterUnit>
+</parameter>
+</time>
+                <time>
+                    <startTime>2016-10-09T18:00:00+08:00</startTime>
+                    <endTime>2016-10-10T06:00:00+08:00</endTime>
+                    <parameter>
+                        <parameterName>70</parameterName>
+                        <parameterUnit>百分比</parameterUnit>
+</parameter>
+</time>
+</weatherElement>
+</location>
+        <location>
+            <locationName>花蓮縣</locationName>
+            <weatherElement>
+                <elementName>Wx</elementName>
+                <time>
+                    <startTime>2016-10-09T00:00:00+08:00</startTime>
+                    <endTime>2016-10-09T06:00:00+08:00</endTime>
+                    <parameter>
+                        <parameterName>陰短暫陣雨或雷雨</parameterName>
+                        <parameterValue>36</parameterValue>
+</parameter>
+</time>
+                <time>
+                    <startTime>2016-10-09T06:00:00+08:00</startTime>
+                    <endTime>2016-10-09T18:00:00+08:00</endTime>
+                    <parameter>
+                        <parameterName>陰短暫陣雨或雷雨</parameterName>
+                        <parameterValue>36</parameterValue>
+</parameter>
+</time>
+                <time>
+                    <startTime>2016-10-09T18:00:00+08:00</startTime>
+                    <endTime>2016-10-10T06:00:00+08:00</endTime>
+                    <parameter>
+                        <parameterName>陰短暫陣雨</parameterName>
+                        <parameterValue>26</parameterValue>
+</parameter>
+</time>
+</weatherElement>
+            <weatherElement>
+                <elementName>MaxT</elementName>
+                <time>
+                    <startTime>2016-10-09T00:00:00+08:00</startTime>
+                    <endTime>2016-10-09T06:00:00+08:00</endTime>
+                    <parameter>
+                        <parameterName>25</parameterName>
+                        <parameterUnit>C</parameterUnit>
+</parameter>
+</time>
+                <time>
+                    <startTime>2016-10-09T06:00:00+08:00</startTime>
+                    <endTime>2016-10-09T18:00:00+08:00</endTime>
+                    <parameter>
+                        <parameterName>29</parameterName>
+                        <parameterUnit>C</parameterUnit>
+</parameter>
+</time>
+                <time>
+                    <startTime>2016-10-09T18:00:00+08:00</startTime>
+                    <endTime>2016-10-10T06:00:00+08:00</endTime>
+                    <parameter>
+                        <parameterName>26</parameterName>
+                        <parameterUnit>C</parameterUnit>
+</parameter>
+</time>
+</weatherElement>
+            <weatherElement>
+                <elementName>MinT</elementName>
+                <time>
+                    <startTime>2016-10-09T00:00:00+08:00</startTime>
+                    <endTime>2016-10-09T06:00:00+08:00</endTime>
+                    <parameter>
+                        <parameterName>24</parameterName>
+                        <parameterUnit>C</parameterUnit>
+</parameter>
+</time>
+                <time>
+                    <startTime>2016-10-09T06:00:00+08:00</startTime>
+                    <endTime>2016-10-09T18:00:00+08:00</endTime>
+                    <parameter>
+                        <parameterName>24</parameterName>
+                        <parameterUnit>C</parameterUnit>
+</parameter>
+</time>
+                <time>
+                    <startTime>2016-10-09T18:00:00+08:00</startTime>
+                    <endTime>2016-10-10T06:00:00+08:00</endTime>
+                    <parameter>
+                        <parameterName>23</parameterName>
+                        <parameterUnit>C</parameterUnit>
+</parameter>
+</time>
+</weatherElement>
+            <weatherElement>
+                <elementName>CI</elementName>
+                <time>
+                    <startTime>2016-10-09T00:00:00+08:00</startTime>
+                    <endTime>2016-10-09T06:00:00+08:00</endTime>
+                    <parameter>
+                        <parameterName>舒適</parameterName>
+</parameter>
+</time>
+                <time>
+                    <startTime>2016-10-09T06:00:00+08:00</startTime>
+                    <endTime>2016-10-09T18:00:00+08:00</endTime>
+                    <parameter>
+                        <parameterName>舒適至悶熱</parameterName>
+</parameter>
+</time>
+                <time>
+                    <startTime>2016-10-09T18:00:00+08:00</startTime>
+                    <endTime>2016-10-10T06:00:00+08:00</endTime>
+                    <parameter>
+                        <parameterName>舒適</parameterName>
+</parameter>
+</time>
+</weatherElement>
+            <weatherElement>
+                <elementName>PoP</elementName>
+                <time>
+                    <startTime>2016-10-09T00:00:00+08:00</startTime>
+                    <endTime>2016-10-09T06:00:00+08:00</endTime>
+                    <parameter>
+                        <parameterName>50</parameterName>
+                        <parameterUnit>百分比</parameterUnit>
+</parameter>
+</time>
+                <time>
+                    <startTime>2016-10-09T06:00:00+08:00</startTime>
+                    <endTime>2016-10-09T18:00:00+08:00</endTime>
+                    <parameter>
+                        <parameterName>60</parameterName>
+                        <parameterUnit>百分比</parameterUnit>
+</parameter>
+</time>
+                <time>
+                    <startTime>2016-10-09T18:00:00+08:00</startTime>
+                    <endTime>2016-10-10T06:00:00+08:00</endTime>
+                    <parameter>
+                        <parameterName>40</parameterName>
+                        <parameterUnit>百分比</parameterUnit>
+</parameter>
+</time>
+</weatherElement>
+</location>
+        <location>
+            <locationName>臺東縣</locationName>
+            <weatherElement>
+                <elementName>Wx</elementName>
+                <time>
+                    <startTime>2016-10-09T00:00:00+08:00</startTime>
+                    <endTime>2016-10-09T06:00:00+08:00</endTime>
+                    <parameter>
+                        <parameterName>陰短暫陣雨或雷雨</parameterName>
+                        <parameterValue>36</parameterValue>
+</parameter>
+</time>
+                <time>
+                    <startTime>2016-10-09T06:00:00+08:00</startTime>
+                    <endTime>2016-10-09T18:00:00+08:00</endTime>
+                    <parameter>
+                        <parameterName>陰短暫陣雨或雷雨</parameterName>
+                        <parameterValue>36</parameterValue>
+</parameter>
+</time>
+                <time>
+                    <startTime>2016-10-09T18:00:00+08:00</startTime>
+                    <endTime>2016-10-10T06:00:00+08:00</endTime>
+                    <parameter>
+                        <parameterName>陰短暫陣雨</parameterName>
+                        <parameterValue>26</parameterValue>
+</parameter>
+</time>
+</weatherElement>
+            <weatherElement>
+                <elementName>MaxT</elementName>
+                <time>
+                    <startTime>2016-10-09T00:00:00+08:00</startTime>
+                    <endTime>2016-10-09T06:00:00+08:00</endTime>
+                    <parameter>
+                        <parameterName>25</parameterName>
+                        <parameterUnit>C</parameterUnit>
+</parameter>
+</time>
+                <time>
+                    <startTime>2016-10-09T06:00:00+08:00</startTime>
+                    <endTime>2016-10-09T18:00:00+08:00</endTime>
+                    <parameter>
+                        <parameterName>28</parameterName>
+                        <parameterUnit>C</parameterUnit>
+</parameter>
+</time>
+                <time>
+                    <startTime>2016-10-09T18:00:00+08:00</startTime>
+                    <endTime>2016-10-10T06:00:00+08:00</endTime>
+                    <parameter>
+                        <parameterName>26</parameterName>
+                        <parameterUnit>C</parameterUnit>
+</parameter>
+</time>
+</weatherElement>
+            <weatherElement>
+                <elementName>MinT</elementName>
+                <time>
+                    <startTime>2016-10-09T00:00:00+08:00</startTime>
+                    <endTime>2016-10-09T06:00:00+08:00</endTime>
+                    <parameter>
+                        <parameterName>24</parameterName>
+                        <parameterUnit>C</parameterUnit>
+</parameter>
+</time>
+                <time>
+                    <startTime>2016-10-09T06:00:00+08:00</startTime>
+                    <endTime>2016-10-09T18:00:00+08:00</endTime>
+                    <parameter>
+                        <parameterName>24</parameterName>
+                        <parameterUnit>C</parameterUnit>
+</parameter>
+</time>
+                <time>
+                    <startTime>2016-10-09T18:00:00+08:00</startTime>
+                    <endTime>2016-10-10T06:00:00+08:00</endTime>
+                    <parameter>
+                        <parameterName>24</parameterName>
+                        <parameterUnit>C</parameterUnit>
+</parameter>
+</time>
+</weatherElement>
+            <weatherElement>
+                <elementName>CI</elementName>
+                <time>
+                    <startTime>2016-10-09T00:00:00+08:00</startTime>
+                    <endTime>2016-10-09T06:00:00+08:00</endTime>
+                    <parameter>
+                        <parameterName>舒適</parameterName>
+</parameter>
+</time>
+                <time>
+                    <startTime>2016-10-09T06:00:00+08:00</startTime>
+                    <endTime>2016-10-09T18:00:00+08:00</endTime>
+                    <parameter>
+                        <parameterName>舒適至悶熱</parameterName>
+</parameter>
+</time>
+                <time>
+                    <startTime>2016-10-09T18:00:00+08:00</startTime>
+                    <endTime>2016-10-10T06:00:00+08:00</endTime>
+                    <parameter>
+                        <parameterName>舒適</parameterName>
+</parameter>
+</time>
+</weatherElement>
+            <weatherElement>
+                <elementName>PoP</elementName>
+                <time>
+                    <startTime>2016-10-09T00:00:00+08:00</startTime>
+                    <endTime>2016-10-09T06:00:00+08:00</endTime>
+                    <parameter>
+                        <parameterName>80</parameterName>
+                        <parameterUnit>百分比</parameterUnit>
+</parameter>
+</time>
+                <time>
+                    <startTime>2016-10-09T06:00:00+08:00</startTime>
+                    <endTime>2016-10-09T18:00:00+08:00</endTime>
+                    <parameter>
+                        <parameterName>80</parameterName>
+                        <parameterUnit>百分比</parameterUnit>
+</parameter>
+</time>
+                <time>
+                    <startTime>2016-10-09T18:00:00+08:00</startTime>
+                    <endTime>2016-10-10T06:00:00+08:00</endTime>
+                    <parameter>
+                        <parameterName>60</parameterName>
+                        <parameterUnit>百分比</parameterUnit>
+</parameter>
+</time>
+</weatherElement>
+</location>
+        <location>
+            <locationName>澎湖縣</locationName>
+            <weatherElement>
+                <elementName>Wx</elementName>
+                <time>
+                    <startTime>2016-10-09T00:00:00+08:00</startTime>
+                    <endTime>2016-10-09T06:00:00+08:00</endTime>
+                    <parameter>
+                        <parameterName>多雲短暫陣雨或雷雨</parameterName>
+                        <parameterValue>17</parameterValue>
+</parameter>
+</time>
+                <time>
+                    <startTime>2016-10-09T06:00:00+08:00</startTime>
+                    <endTime>2016-10-09T18:00:00+08:00</endTime>
+                    <parameter>
+                        <parameterName>多雲短暫陣雨或雷雨</parameterName>
+                        <parameterValue>17</parameterValue>
+</parameter>
+</time>
+                <time>
+                    <startTime>2016-10-09T18:00:00+08:00</startTime>
+                    <endTime>2016-10-10T06:00:00+08:00</endTime>
+                    <parameter>
+                        <parameterName>多雲短暫雨</parameterName>
+                        <parameterValue>12</parameterValue>
+</parameter>
+</time>
+</weatherElement>
+            <weatherElement>
+                <elementName>MaxT</elementName>
+                <time>
+                    <startTime>2016-10-09T00:00:00+08:00</startTime>
+                    <endTime>2016-10-09T06:00:00+08:00</endTime>
+                    <parameter>
+                        <parameterName>26</parameterName>
+                        <parameterUnit>C</parameterUnit>
+</parameter>
+</time>
+                <time>
+                    <startTime>2016-10-09T06:00:00+08:00</startTime>
+                    <endTime>2016-10-09T18:00:00+08:00</endTime>
+                    <parameter>
+                        <parameterName>29</parameterName>
+                        <parameterUnit>C</parameterUnit>
+</parameter>
+</time>
+                <time>
+                    <startTime>2016-10-09T18:00:00+08:00</startTime>
+                    <endTime>2016-10-10T06:00:00+08:00</endTime>
+                    <parameter>
+                        <parameterName>26</parameterName>
+                        <parameterUnit>C</parameterUnit>
+</parameter>
+</time>
+</weatherElement>
+            <weatherElement>
+                <elementName>MinT</elementName>
+                <time>
+                    <startTime>2016-10-09T00:00:00+08:00</startTime>
+                    <endTime>2016-10-09T06:00:00+08:00</endTime>
+                    <parameter>
+                        <parameterName>25</parameterName>
+                        <parameterUnit>C</parameterUnit>
+</parameter>
+</time>
+                <time>
+                    <startTime>2016-10-09T06:00:00+08:00</startTime>
+                    <endTime>2016-10-09T18:00:00+08:00</endTime>
+                    <parameter>
+                        <parameterName>25</parameterName>
+                        <parameterUnit>C</parameterUnit>
+</parameter>
+</time>
+                <time>
+                    <startTime>2016-10-09T18:00:00+08:00</startTime>
+                    <endTime>2016-10-10T06:00:00+08:00</endTime>
+                    <parameter>
+                        <parameterName>25</parameterName>
+                        <parameterUnit>C</parameterUnit>
+</parameter>
+</time>
+</weatherElement>
+            <weatherElement>
+                <elementName>CI</elementName>
+                <time>
+                    <startTime>2016-10-09T00:00:00+08:00</startTime>
+                    <endTime>2016-10-09T06:00:00+08:00</endTime>
+                    <parameter>
+                        <parameterName>舒適</parameterName>
+</parameter>
+</time>
+                <time>
+                    <startTime>2016-10-09T06:00:00+08:00</startTime>
+                    <endTime>2016-10-09T18:00:00+08:00</endTime>
+                    <parameter>
+                        <parameterName>舒適</parameterName>
+</parameter>
+</time>
+                <time>
+                    <startTime>2016-10-09T18:00:00+08:00</startTime>
+                    <endTime>2016-10-10T06:00:00+08:00</endTime>
+                    <parameter>
+                        <parameterName>舒適</parameterName>
+</parameter>
+</time>
+</weatherElement>
+            <weatherElement>
+                <elementName>PoP</elementName>
+                <time>
+                    <startTime>2016-10-09T00:00:00+08:00</startTime>
+                    <endTime>2016-10-09T06:00:00+08:00</endTime>
+                    <parameter>
+                        <parameterName>60</parameterName>
+                        <parameterUnit>百分比</parameterUnit>
+</parameter>
+</time>
+                <time>
+                    <startTime>2016-10-09T06:00:00+08:00</startTime>
+                    <endTime>2016-10-09T18:00:00+08:00</endTime>
+                    <parameter>
+                        <parameterName>40</parameterName>
+                        <parameterUnit>百分比</parameterUnit>
+</parameter>
+</time>
+                <time>
+                    <startTime>2016-10-09T18:00:00+08:00</startTime>
+                    <endTime>2016-10-10T06:00:00+08:00</endTime>
+                    <parameter>
+                        <parameterName>30</parameterName>
+                        <parameterUnit>百分比</parameterUnit>
+</parameter>
+</time>
+</weatherElement>
+</location>
+        <location>
+            <locationName>金門縣</locationName>
+            <weatherElement>
+                <elementName>Wx</elementName>
+                <time>
+                    <startTime>2016-10-09T00:00:00+08:00</startTime>
+                    <endTime>2016-10-09T06:00:00+08:00</endTime>
+                    <parameter>
+                        <parameterName>陰短暫陣雨或雷雨</parameterName>
+                        <parameterValue>36</parameterValue>
+</parameter>
+</time>
+                <time>
+                    <startTime>2016-10-09T06:00:00+08:00</startTime>
+                    <endTime>2016-10-09T18:00:00+08:00</endTime>
+                    <parameter>
+                        <parameterName>陰短暫陣雨或雷雨</parameterName>
+                        <parameterValue>36</parameterValue>
+</parameter>
+</time>
+                <time>
+                    <startTime>2016-10-09T18:00:00+08:00</startTime>
+                    <endTime>2016-10-10T06:00:00+08:00</endTime>
+                    <parameter>
+                        <parameterName>陰時多雲短暫雨</parameterName>
+                        <parameterValue>26</parameterValue>
+</parameter>
+</time>
+</weatherElement>
+            <weatherElement>
+                <elementName>MaxT</elementName>
+                <time>
+                    <startTime>2016-10-09T00:00:00+08:00</startTime>
+                    <endTime>2016-10-09T06:00:00+08:00</endTime>
+                    <parameter>
+                        <parameterName>25</parameterName>
+                        <parameterUnit>C</parameterUnit>
+</parameter>
+</time>
+                <time>
+                    <startTime>2016-10-09T06:00:00+08:00</startTime>
+                    <endTime>2016-10-09T18:00:00+08:00</endTime>
+                    <parameter>
+                        <parameterName>27</parameterName>
+                        <parameterUnit>C</parameterUnit>
+</parameter>
+</time>
+                <time>
+                    <startTime>2016-10-09T18:00:00+08:00</startTime>
+                    <endTime>2016-10-10T06:00:00+08:00</endTime>
+                    <parameter>
+                        <parameterName>25</parameterName>
+                        <parameterUnit>C</parameterUnit>
+</parameter>
+</time>
+</weatherElement>
+            <weatherElement>
+                <elementName>MinT</elementName>
+                <time>
+                    <startTime>2016-10-09T00:00:00+08:00</startTime>
+                    <endTime>2016-10-09T06:00:00+08:00</endTime>
+                    <parameter>
+                        <parameterName>24</parameterName>
+                        <parameterUnit>C</parameterUnit>
+</parameter>
+</time>
+                <time>
+                    <startTime>2016-10-09T06:00:00+08:00</startTime>
+                    <endTime>2016-10-09T18:00:00+08:00</endTime>
+                    <parameter>
+                        <parameterName>24</parameterName>
+                        <parameterUnit>C</parameterUnit>
+</parameter>
+</time>
+                <time>
+                    <startTime>2016-10-09T18:00:00+08:00</startTime>
+                    <endTime>2016-10-10T06:00:00+08:00</endTime>
+                    <parameter>
+                        <parameterName>24</parameterName>
+                        <parameterUnit>C</parameterUnit>
+</parameter>
+</time>
+</weatherElement>
+            <weatherElement>
+                <elementName>CI</elementName>
+                <time>
+                    <startTime>2016-10-09T00:00:00+08:00</startTime>
+                    <endTime>2016-10-09T06:00:00+08:00</endTime>
+                    <parameter>
+                        <parameterName>舒適</parameterName>
+</parameter>
+</time>
+                <time>
+                    <startTime>2016-10-09T06:00:00+08:00</startTime>
+                    <endTime>2016-10-09T18:00:00+08:00</endTime>
+                    <parameter>
+                        <parameterName>舒適</parameterName>
+</parameter>
+</time>
+                <time>
+                    <startTime>2016-10-09T18:00:00+08:00</startTime>
+                    <endTime>2016-10-10T06:00:00+08:00</endTime>
+                    <parameter>
+                        <parameterName>舒適</parameterName>
+</parameter>
+</time>
+</weatherElement>
+            <weatherElement>
+                <elementName>PoP</elementName>
+                <time>
+                    <startTime>2016-10-09T00:00:00+08:00</startTime>
+                    <endTime>2016-10-09T06:00:00+08:00</endTime>
+                    <parameter>
+                        <parameterName>30</parameterName>
+                        <parameterUnit>百分比</parameterUnit>
+</parameter>
+</time>
+                <time>
+                    <startTime>2016-10-09T06:00:00+08:00</startTime>
+                    <endTime>2016-10-09T18:00:00+08:00</endTime>
+                    <parameter>
+                        <parameterName>30</parameterName>
+                        <parameterUnit>百分比</parameterUnit>
+</parameter>
+</time>
+                <time>
+                    <startTime>2016-10-09T18:00:00+08:00</startTime>
+                    <endTime>2016-10-10T06:00:00+08:00</endTime>
+                    <parameter>
+                        <parameterName>30</parameterName>
+                        <parameterUnit>百分比</parameterUnit>
+</parameter>
+</time>
+</weatherElement>
+</location>
+        <location>
+            <locationName>連江縣</locationName>
+            <weatherElement>
+                <elementName>Wx</elementName>
+                <time>
+                    <startTime>2016-10-09T00:00:00+08:00</startTime>
+                    <endTime>2016-10-09T06:00:00+08:00</endTime>
+                    <parameter>
+                        <parameterName>陰時多雲</parameterName>
+                        <parameterValue>6</parameterValue>
+</parameter>
+</time>
+                <time>
+                    <startTime>2016-10-09T06:00:00+08:00</startTime>
+                    <endTime>2016-10-09T18:00:00+08:00</endTime>
+                    <parameter>
+                        <parameterName>陰時多雲短暫陣雨或雷雨</parameterName>
+                        <parameterValue>36</parameterValue>
+</parameter>
+</time>
+                <time>
+                    <startTime>2016-10-09T18:00:00+08:00</startTime>
+                    <endTime>2016-10-10T06:00:00+08:00</endTime>
+                    <parameter>
+                        <parameterName>陰天</parameterName>
+                        <parameterValue>3</parameterValue>
+</parameter>
+</time>
+</weatherElement>
+            <weatherElement>
+                <elementName>MaxT</elementName>
+                <time>
+                    <startTime>2016-10-09T00:00:00+08:00</startTime>
+                    <endTime>2016-10-09T06:00:00+08:00</endTime>
+                    <parameter>
+                        <parameterName>25</parameterName>
+                        <parameterUnit>C</parameterUnit>
+</parameter>
+</time>
+                <time>
+                    <startTime>2016-10-09T06:00:00+08:00</startTime>
+                    <endTime>2016-10-09T18:00:00+08:00</endTime>
+                    <parameter>
+                        <parameterName>26</parameterName>
+                        <parameterUnit>C</parameterUnit>
+</parameter>
+</time>
+                <time>
+                    <startTime>2016-10-09T18:00:00+08:00</startTime>
+                    <endTime>2016-10-10T06:00:00+08:00</endTime>
+                    <parameter>
+                        <parameterName>23</parameterName>
+                        <parameterUnit>C</parameterUnit>
+</parameter>
+</time>
+</weatherElement>
+            <weatherElement>
+                <elementName>MinT</elementName>
+                <time>
+                    <startTime>2016-10-09T00:00:00+08:00</startTime>
+                    <endTime>2016-10-09T06:00:00+08:00</endTime>
+                    <parameter>
+                        <parameterName>23</parameterName>
+                        <parameterUnit>C</parameterUnit>
+</parameter>
+</time>
+                <time>
+                    <startTime>2016-10-09T06:00:00+08:00</startTime>
+                    <endTime>2016-10-09T18:00:00+08:00</endTime>
+                    <parameter>
+                        <parameterName>23</parameterName>
+                        <parameterUnit>C</parameterUnit>
+</parameter>
+</time>
+                <time>
+                    <startTime>2016-10-09T18:00:00+08:00</startTime>
+                    <endTime>2016-10-10T06:00:00+08:00</endTime>
+                    <parameter>
+                        <parameterName>22</parameterName>
+                        <parameterUnit>C</parameterUnit>
+</parameter>
+</time>
+</weatherElement>
+            <weatherElement>
+                <elementName>CI</elementName>
+                <time>
+                    <startTime>2016-10-09T00:00:00+08:00</startTime>
+                    <endTime>2016-10-09T06:00:00+08:00</endTime>
+                    <parameter>
+                        <parameterName>舒適</parameterName>
+</parameter>
+</time>
+                <time>
+                    <startTime>2016-10-09T06:00:00+08:00</startTime>
+                    <endTime>2016-10-09T18:00:00+08:00</endTime>
+                    <parameter>
+                        <parameterName>舒適</parameterName>
+</parameter>
+</time>
+                <time>
+                    <startTime>2016-10-09T18:00:00+08:00</startTime>
+                    <endTime>2016-10-10T06:00:00+08:00</endTime>
+                    <parameter>
+                        <parameterName>舒適</parameterName>
+</parameter>
+</time>
+</weatherElement>
+            <weatherElement>
+                <elementName>PoP</elementName>
+                <time>
+                    <startTime>2016-10-09T00:00:00+08:00</startTime>
+                    <endTime>2016-10-09T06:00:00+08:00</endTime>
+                    <parameter>
+                        <parameterName>20</parameterName>
+                        <parameterUnit>百分比</parameterUnit>
+</parameter>
+</time>
+                <time>
+                    <startTime>2016-10-09T06:00:00+08:00</startTime>
+                    <endTime>2016-10-09T18:00:00+08:00</endTime>
+                    <parameter>
+                        <parameterName>30</parameterName>
+                        <parameterUnit>百分比</parameterUnit>
+</parameter>
+</time>
+                <time>
+                    <startTime>2016-10-09T18:00:00+08:00</startTime>
+                    <endTime>2016-10-10T06:00:00+08:00</endTime>
+                    <parameter>
+                        <parameterName>10</parameterName>
+                        <parameterUnit>百分比</parameterUnit>
+</parameter>
+</time>
+</weatherElement>
+</location>
+</dataset>
+</cwbopendata>
