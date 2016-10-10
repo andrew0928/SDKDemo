@@ -4,17 +4,15 @@
   <PropertyGroup>
     <Configuration Condition=" '$(Configuration)' == '' ">Debug</Configuration>
     <Platform Condition=" '$(Platform)' == '' ">AnyCPU</Platform>
-    <ProjectGuid>{D70072B6-1A40-4EA7-9BCD-A875C35117E3}</ProjectGuid>
-    <OutputType>Exe</OutputType>
+    <ProjectGuid>{AB568B8A-C313-4937-B143-593C8138E1CF}</ProjectGuid>
+    <OutputType>Library</OutputType>
     <AppDesignerFolder>Properties</AppDesignerFolder>
-    <RootNamespace>Demo.Client.ConsoleApp</RootNamespace>
-    <AssemblyName>Demo.Client.ConsoleApp</AssemblyName>
+    <RootNamespace>Demo.SDK</RootNamespace>
+    <AssemblyName>Demo.SDK</AssemblyName>
     <TargetFrameworkVersion>v4.6.1</TargetFrameworkVersion>
     <FileAlignment>512</FileAlignment>
-    <AutoGenerateBindingRedirects>true</AutoGenerateBindingRedirects>
   </PropertyGroup>
   <PropertyGroup Condition=" '$(Configuration)|$(Platform)' == 'Debug|AnyCPU' ">
-    <PlatformTarget>AnyCPU</PlatformTarget>
     <DebugSymbols>true</DebugSymbols>
     <DebugType>full</DebugType>
     <Optimize>false</Optimize>
@@ -24,7 +22,6 @@
     <WarningLevel>4</WarningLevel>
   </PropertyGroup>
   <PropertyGroup Condition=" '$(Configuration)|$(Platform)' == 'Release|AnyCPU' ">
-    <PlatformTarget>AnyCPU</PlatformTarget>
     <DebugType>pdbonly</DebugType>
     <Optimize>true</Optimize>
     <OutputPath>bin\Release\</OutputPath>
@@ -47,22 +44,17 @@
     <Reference Include="System.Xml" />
   </ItemGroup>
   <ItemGroup>
-    <Compile Include="Program.cs" />
+    <Compile Include="Client.cs" />
     <Compile Include="Properties\AssemblyInfo.cs" />
   </ItemGroup>
   <ItemGroup>
-    <None Include="App.config" />
-    <None Include="packages.config" />
-  </ItemGroup>
-  <ItemGroup>
     <ProjectReference Include="..\Demo.SDK.Contracts\Demo.SDK.Contracts.csproj">
-      <Project>{f5fc8bee-33e9-42ce-a878-5a67c0eecb91}</Project>
+      <Project>{F5FC8BEE-33E9-42CE-A878-5A67C0EECB91}</Project>
       <Name>Demo.SDK.Contracts</Name>
     </ProjectReference>
-    <ProjectReference Include="..\Demo.SDK\Demo.SDK.csproj">
-      <Project>{ab568b8a-c313-4937-b143-593c8138e1cf}</Project>
-      <Name>Demo.SDK</Name>
-    </ProjectReference>
+  </ItemGroup>
+  <ItemGroup>
+    <None Include="packages.config" />
   </ItemGroup>
   <Import Project="$(MSBuildToolsPath)\Microsoft.CSharp.targets" />
   <!-- To modify your build process, add your task inside one of the targets below and uncomment it. 

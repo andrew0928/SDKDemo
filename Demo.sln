@@ -12,6 +12,10 @@ Project("{FAE04EC0-301F-11D3-BF4B-00C04F79EFBC}") = "Demo.ApiWeb", "Demo.ApiWeb\
 EndProject
 Project("{FAE04EC0-301F-11D3-BF4B-00C04F79EFBC}") = "Demo.Client.ConsoleApp", "Demo.Client.ConsoleApp\Demo.Client.ConsoleApp.csproj", "{D70072B6-1A40-4EA7-9BCD-A875C35117E3}"
 EndProject
+Project("{FAE04EC0-301F-11D3-BF4B-00C04F79EFBC}") = "Demo.SDK", "Demo.SDK\Demo.SDK.csproj", "{AB568B8A-C313-4937-B143-593C8138E1CF}"
+EndProject
+Project("{FAE04EC0-301F-11D3-BF4B-00C04F79EFBC}") = "Demo.SDK.Contracts", "Demo.SDK.Contracts\Demo.SDK.Contracts.csproj", "{F5FC8BEE-33E9-42CE-A878-5A67C0EECB91}"
+EndProject
 Global
 	GlobalSection(SolutionConfigurationPlatforms) = preSolution
 		Debug|Any CPU = Debug|Any CPU
@@ -26,6 +30,14 @@ Global
 		{D70072B6-1A40-4EA7-9BCD-A875C35117E3}.Debug|Any CPU.Build.0 = Debug|Any CPU
 		{D70072B6-1A40-4EA7-9BCD-A875C35117E3}.Release|Any CPU.ActiveCfg = Release|Any CPU
 		{D70072B6-1A40-4EA7-9BCD-A875C35117E3}.Release|Any CPU.Build.0 = Release|Any CPU
+		{AB568B8A-C313-4937-B143-593C8138E1CF}.Debug|Any CPU.ActiveCfg = Debug|Any CPU
+		{AB568B8A-C313-4937-B143-593C8138E1CF}.Debug|Any CPU.Build.0 = Debug|Any CPU
+		{AB568B8A-C313-4937-B143-593C8138E1CF}.Release|Any CPU.ActiveCfg = Release|Any CPU
+		{AB568B8A-C313-4937-B143-593C8138E1CF}.Release|Any CPU.Build.0 = Release|Any CPU
+		{F5FC8BEE-33E9-42CE-A878-5A67C0EECB91}.Debug|Any CPU.ActiveCfg = Debug|Any CPU
+		{F5FC8BEE-33E9-42CE-A878-5A67C0EECB91}.Debug|Any CPU.Build.0 = Debug|Any CPU
+		{F5FC8BEE-33E9-42CE-A878-5A67C0EECB91}.Release|Any CPU.ActiveCfg = Release|Any CPU
+		{F5FC8BEE-33E9-42CE-A878-5A67C0EECB91}.Release|Any CPU.Build.0 = Release|Any CPU
 	EndGlobalSection
 	GlobalSection(SolutionProperties) = preSolution
 		HideSolutionNode = FALSE

@@ -71,7 +71,12 @@
     <Reference Include="System.Web.Services" />
     <Reference Include="System.EnterpriseServices" />
   </ItemGroup>
-  <ItemGroup />
+  <ItemGroup>
+    <ProjectReference Include="..\Demo.SDK.Contracts\Demo.SDK.Contracts.csproj">
+      <Project>{f5fc8bee-33e9-42ce-a878-5a67c0eecb91}</Project>
+      <Name>Demo.SDK.Contracts</Name>
+    </ProjectReference>
+  </ItemGroup>
   <ItemGroup>
     <Reference Include="WebActivatorEx">
       <HintPath>..\packages\WebActivatorEx.2.0.6\lib\net40\WebActivatorEx.dll</HintPath>

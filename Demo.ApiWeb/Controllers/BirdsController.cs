@@ -1,4 +1,5 @@
 ﻿using Demo.ApiWeb.Models;
+using Demo.SDK.Contracts;
 using System;
 using System.Collections.Generic;
 using System.IO;
@@ -14,14 +15,14 @@ namespace Demo.ApiWeb.Controllers
     {
         protected override void Initialize(HttpControllerContext controllerContext)
         {
-            BirdInfo.Init(File.ReadAllText(System.Web.HttpContext.Current.Server.MapPath("~/App_Data/birds.json")));
+            BirdInfoRepo.Init(File.ReadAllText(System.Web.HttpContext.Current.Server.MapPath("~/App_Data/birds.json")));
             base.Initialize(controllerContext);
         }
 
 
         public void Head()
         {
-            System.Web.HttpContext.Current.Response.AddHeader("X-DATAINFO-TOTAL", BirdInfo.Data.Count().ToString());
+            System.Web.HttpContext.Current.Response.AddHeader("X-DATAINFO-TOTAL", BirdInfoRepo.Data.Count().ToString());
             return;
         }
 
@@ -35,11 +36,11 @@ namespace Demo.ApiWeb.Controllers
 
             if (take > MaxTake) take = MaxTake;
 
-            System.Web.HttpContext.Current.Response.AddHeader("X-DATAINFO-TOTAL", BirdInfo.Data.Count().ToString());
+            System.Web.HttpContext.Current.Response.AddHeader("X-DATAINFO-TOTAL", BirdInfoRepo.Data.Count().ToString());
             System.Web.HttpContext.Current.Response.AddHeader("X-DATAINFO-START", start.ToString());
             System.Web.HttpContext.Current.Response.AddHeader("X-DATAINFO-TAKE", take.ToString());
 
-            IEnumerable<BirdInfo> result = BirdInfo.Data;
+            IEnumerable<BirdInfo> result = BirdInfoRepo.Data;
             if (start > 0) result = result.Skip(start);
             result = result.Take(take);
 
@@ -49,7 +50,7 @@ namespace Demo.ApiWeb.Controllers
         // GET api/values/5
         public BirdInfo Get(string id)
         {
-            return BirdInfo.Get(id);
+            return BirdInfoRepo.Get(id);
         }
 
 
