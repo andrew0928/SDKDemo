@@ -45,6 +45,18 @@ https://tw.twincl.com/programming/*641y
 
 http://www.restapitutorial.com/lessons/idempotency.html
 
+swagger
+https://docs.asp.net/en/latest/tutorials/web-api-help-pages-using-swagger.html
+
+ASP.NET Web API 文件產生器 - 使用 Swagger
+http://kevintsengtw.blogspot.tw/2015/12/aspnet-web-api-swagger.html
+
+ASP.NET WEB API 文件產生器(2) - SWAGGER
+http://blog.kkbruce.net/2015/04/aspnet-web-api-2-swagger.html#.V_uwBCh96UM
+
+Swashbuckle - Swagger for Web Api 顯示內容的調整
+http://kevintsengtw.blogspot.tw/2015/12/swashbuckle-swagger-for-web-api.html
+
 # DATA
 
 
