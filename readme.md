@@ -42,8 +42,8 @@ https://tw.twincl.com/programming/*641y
 > HEAD: 類似GET，但只回傳HTTP header (safe & idempotent)  
 > 其它還有一些較少用到的，可參考Wikipedia: Hypertext Transfer Protocol  
 > 以上「safe」是指該操作不會改變伺服器端的資源狀態（而且結果可以被cache）；「idempotent」是指該操作不管做1遍或做n遍，都會得到同樣的資源狀態結果（但不一定得到同樣的回傳值，例如第2次DELETE請求可能回傳404），因此client端可以放心retry。  
-> 
 
+http://www.restapitutorial.com/lessons/idempotency.html
 
 # DATA
 
