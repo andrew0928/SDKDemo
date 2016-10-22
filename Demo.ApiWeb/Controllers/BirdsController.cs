@@ -1,10 +1,7 @@
 ﻿using Demo.ApiWeb.Models;
-using Demo.SDK.Contracts;
-using System;
 using System.Collections.Generic;
 using System.IO;
 using System.Linq;
-using System.Net;
 using System.Net.Http;
 using System.Web.Http;
 using System.Web.Http.Controllers;
@@ -48,9 +45,9 @@ namespace Demo.ApiWeb.Controllers
         }
         
         // GET api/values/5
-        public BirdInfo Get(string id)
+        public BirdInfo Get(string serialNo)
         {
-            return BirdInfoRepo.Get(id);
+            return BirdInfoRepo.Get(serialNo);
         }
 
 

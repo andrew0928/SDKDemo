@@ -3,11 +3,11 @@ using System.Collections.Generic;
 using System.Linq;
 using System.Web;
 
-namespace Demo.SDK.Contracts
+namespace Demo.SDK
 {
     public class BirdInfo
     {
-        public string SerialNo { get; set; }
+        public string BirdNo { get; set; }
         public string SurveyDate { get; set; }
         public string Location { get; set; }
         public string WGS84Lon { get; set; }

@@ -44,14 +44,9 @@
     <Reference Include="System.Xml" />
   </ItemGroup>
   <ItemGroup>
+    <Compile Include="BirdInfo.cs" />
     <Compile Include="Client.cs" />
     <Compile Include="Properties\AssemblyInfo.cs" />
-  </ItemGroup>
-  <ItemGroup>
-    <ProjectReference Include="..\Demo.SDK.Contracts\Demo.SDK.Contracts.csproj">
-      <Project>{F5FC8BEE-33E9-42CE-A878-5A67C0EECB91}</Project>
-      <Name>Demo.SDK.Contracts</Name>
-    </ProjectReference>
   </ItemGroup>
   <ItemGroup>
     <None Include="packages.config" />

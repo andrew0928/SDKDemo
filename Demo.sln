@@ -5,6 +5,7 @@ VisualStudioVersion = 14.0.25420.1
 MinimumVisualStudioVersion = 10.0.40219.1
 Project("{2150E333-8FDC-42A3-9474-1A3956D46DE8}") = "Solution Items", "Solution Items", "{B0C74E67-0E59-47EA-A552-32E45E21ED20}"
 	ProjectSection(SolutionItems) = preProject
+		diagram.pptx = diagram.pptx
 		readme.md = readme.md
 	EndProjectSection
 EndProject
@@ -13,8 +14,6 @@ EndProject
 Project("{FAE04EC0-301F-11D3-BF4B-00C04F79EFBC}") = "Demo.Client.ConsoleApp", "Demo.Client.ConsoleApp\Demo.Client.ConsoleApp.csproj", "{D70072B6-1A40-4EA7-9BCD-A875C35117E3}"
 EndProject
 Project("{FAE04EC0-301F-11D3-BF4B-00C04F79EFBC}") = "Demo.SDK", "Demo.SDK\Demo.SDK.csproj", "{AB568B8A-C313-4937-B143-593C8138E1CF}"
-EndProject
-Project("{FAE04EC0-301F-11D3-BF4B-00C04F79EFBC}") = "Demo.SDK.Contracts", "Demo.SDK.Contracts\Demo.SDK.Contracts.csproj", "{F5FC8BEE-33E9-42CE-A878-5A67C0EECB91}"
 EndProject
 Global
 	GlobalSection(SolutionConfigurationPlatforms) = preSolution
@@ -34,10 +33,6 @@ Global
 		{AB568B8A-C313-4937-B143-593C8138E1CF}.Debug|Any CPU.Build.0 = Debug|Any CPU
 		{AB568B8A-C313-4937-B143-593C8138E1CF}.Release|Any CPU.ActiveCfg = Release|Any CPU
 		{AB568B8A-C313-4937-B143-593C8138E1CF}.Release|Any CPU.Build.0 = Release|Any CPU
-		{F5FC8BEE-33E9-42CE-A878-5A67C0EECB91}.Debug|Any CPU.ActiveCfg = Debug|Any CPU
-		{F5FC8BEE-33E9-42CE-A878-5A67C0EECB91}.Debug|Any CPU.Build.0 = Debug|Any CPU
-		{F5FC8BEE-33E9-42CE-A878-5A67C0EECB91}.Release|Any CPU.ActiveCfg = Release|Any CPU
-		{F5FC8BEE-33E9-42CE-A878-5A67C0EECB91}.Release|Any CPU.Build.0 = Release|Any CPU
 	EndGlobalSection
 	GlobalSection(SolutionProperties) = preSolution
 		HideSolutionNode = FALSE

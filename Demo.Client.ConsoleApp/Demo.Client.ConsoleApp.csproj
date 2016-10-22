@@ -55,10 +55,6 @@
     <None Include="packages.config" />
   </ItemGroup>
   <ItemGroup>
-    <ProjectReference Include="..\Demo.SDK.Contracts\Demo.SDK.Contracts.csproj">
-      <Project>{f5fc8bee-33e9-42ce-a878-5a67c0eecb91}</Project>
-      <Name>Demo.SDK.Contracts</Name>
-    </ProjectReference>
     <ProjectReference Include="..\Demo.SDK\Demo.SDK.csproj">
       <Project>{ab568b8a-c313-4937-b143-593c8138e1cf}</Project>
       <Name>Demo.SDK</Name>

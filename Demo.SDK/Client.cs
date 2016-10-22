@@ -1,4 +1,4 @@
-﻿using Demo.SDK.Contracts;
+﻿using Demo.SDK;
 using Newtonsoft.Json;
 using System;
 using System.Collections.Generic;
@@ -27,14 +27,13 @@ namespace Demo.SDK
 
             do
             {
-                Console.WriteLine($"--- loading data... ({current} ~ {current + pagesize}) ---");
+                //Console.WriteLine($"--- loading data... ({current} ~ {current + pagesize}) ---");
                 HttpResponseMessage result = _http.GetAsync($"/api/birds?$start={current}&$take={pagesize}").Result;
 
                 var result_objs = JsonConvert.DeserializeObject<BirdInfo[]>(result.Content.ReadAsStringAsync().Result);
 
                 foreach (BirdInfo item in result_objs)
                 {
-                    //Console.WriteLine("ID: {0}", item["BirdId"]);
                     yield return item;
                 }
 
@@ -47,9 +46,11 @@ namespace Demo.SDK
             yield break;
         }
 
-        public BirdInfo GetBirdInfo(string id)
+        public BirdInfo GetBirdInfo(string serialNo)
         {
-            throw new NotImplementedException();
+            HttpResponseMessage result = _http.GetAsync($"/api/birds/{serialNo}").Result;
+            var result_obj = JsonConvert.DeserializeObject<BirdInfo>(result.Content.ReadAsStringAsync().Result);
+            return result_obj;
         }
     }
 }
