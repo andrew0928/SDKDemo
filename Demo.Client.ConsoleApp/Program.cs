@@ -1,4 +1,5 @@
-﻿using Demo.SDK;
+﻿using Demo.Contracts;
+using Demo.SDK;
 using System;
 using System.Diagnostics;
 using System.Linq;
@@ -20,8 +21,9 @@ namespace Demo.Client.ConsoleApp
         
         static void ListAll_UseSDK()
         {
-            Demo.SDK.Client client = new Demo.SDK.Client(new Uri("http://localhost:56648"));
-            foreach(var item in (from x in client.GetBirdInfos() where x.BirdNo == "40250" select x))
+            //Demo.SDK.Client client = new Demo.SDK.Client(new Uri("http://localhost:56648"));
+            ISDKClient client = Demo.SDK.Client.Create(new Uri("http://localhost:56648"));
+            foreach (var item in (from x in client.GetBirdInfos() where x.BirdNo == "40250" select x))
             {
                 ShowBirdInfo(item);
                 break;

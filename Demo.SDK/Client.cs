@@ -1,4 +1,5 @@
-﻿using Demo.SDK;
+﻿using Demo.Contracts;
+using Demo.SDK;
 using Newtonsoft.Json;
 using System;
 using System.Collections.Generic;
@@ -9,11 +10,16 @@ using System.Threading.Tasks;
 
 namespace Demo.SDK
 {
-    public class Client
+    public class Client : ISDKClient
     {
         private HttpClient _http = null;
 
-        public Client(Uri serviceURL)
+        public static ISDKClient Create(Uri serviceURL)
+        {
+            return new Client(serviceURL);
+        }
+
+        private Client(Uri serviceURL)
         {
             // do init / check
             this._http = new HttpClient();

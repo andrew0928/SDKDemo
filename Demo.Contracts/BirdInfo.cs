@@ -3,7 +3,7 @@ using System.Collections.Generic;
 using System.Linq;
 using System.Web;
 
-namespace Demo.SDK
+namespace Demo.Contracts
 {
     public class BirdInfo
     {
