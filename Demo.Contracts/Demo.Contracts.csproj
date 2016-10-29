@@ -41,6 +41,8 @@
   </ItemGroup>
   <ItemGroup>
     <Compile Include="BirdInfo.cs" />
+    <Compile Include="IApiContract.cs" />
+    <Compile Include="IBirdsApiContract.cs" />
     <Compile Include="ISDKClient.cs" />
     <Compile Include="Properties\AssemblyInfo.cs" />
   </ItemGroup>

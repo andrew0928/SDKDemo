@@ -12,107 +12,19 @@ using System.Web.Http.Filters;
 
 namespace Demo.ApiWeb.Controllers
 {
-    /// <summary>
-    /// 識別是否為 Contract 用途的 interface
-    /// </summary>
-    interface IContract
-    {
-    }
-
-    /// <summary>
-    /// Birds API Controller Contract
-    /// </summary>
-    interface IBirdsContract : IContract
-    {
-        string Options();
-
-        void Head();
-
-        IEnumerable<BirdInfo> Get();
-
-        BirdInfo Get(string serialNo);
-    }
 
 
 
-    public class SDKVersionCheckActionFilterAttribute : ActionFilterAttribute
-    {
-        public override void OnActionExecuting(HttpActionContext actionContext)
-        {
-            // step 1, get SDK required version info from HTTP request header: X-SDK-REQUIRED-VERSION
-            Version required_version = null;
-            foreach(string hvalue in actionContext.Request.Headers.GetValues("X-SDK-REQUIRED-VERSION"))
-            {
-                required_version = new Version(hvalue);
-                break;
-            }
-
-            // step 2, get current API version from Assembly metadata
-            Version current_version = this.GetType().Assembly.GetName().Version;
-
-            // step 3, check compatibility
-            Debug.WriteLine($"check SDK version:");
-            Debug.WriteLine($"- required: {required_version}");
-            Debug.WriteLine($"- current:  {current_version}");
-
-            if (current_version.Major != required_version.Major) throw new InvalidOperationException();
-            if (current_version.Minor < required_version.Minor) throw new InvalidOperationException();
-        }
-    }
 
 
-    public class ContractCheckActionFilterAttribute : ActionFilterAttribute
-    {
-        /// <summary>
-        ///  檢查即將要被執行的 Action, 是否已被定義在 contract interface ?
-        ///  若找不到 contract interface, 或是找不到 action name 對應的 method, 則丟出 NotSupportedException
-        /// </summary>
-        /// <param name="actionContext"></param>
-        public override void OnActionExecuting(HttpActionContext actionContext)
-        {
-            Debug.WriteLine(
-                "check contract for API: {0}/{1}",
-                actionContext.ActionDescriptor.ControllerDescriptor.ControllerName,
-                actionContext.ActionDescriptor.ActionName);
 
 
-            //
-            // 搜尋 controller 實作的 contract interface
-            //
-            System.Type contractType = null;
-            foreach (var i in actionContext.ActionDescriptor.ControllerDescriptor.ControllerType.GetInterfaces())
-            {
-                if (i.GetInterface(typeof(IContract).FullName) != null)
-                {
-                    contractType = i;
-                    Debug.WriteLine($"- contract interface found: {contractType.FullName}.");
-                    break;
-                }
-            }
-            if (contractType == null) throw new NotSupportedException("API method(s) must defined in contract interface.");
 
-            //
-            // 搜尋 action method
-            //
-            bool isMatch = false;
-            foreach(var m in contractType.GetMethods())
-            {
-                if (m.Name == actionContext.ActionDescriptor.ActionName)
-                {
-                    isMatch = true;
-                    Debug.WriteLine($"- contract method found: {m.Name}.");
-                    break;
-                }
-            }
-
-            if (isMatch == false) throw new NotSupportedException("API method(s) must defined in contract interface.");
-        }
-    }
 
 
     [SDKVersionCheckActionFilter]
     [ContractCheckActionFilter]
-    public class BirdsController : ApiController, IBirdsContract
+    public class BirdsController : ApiController, IBirdsApiContract
     {
         protected override void Initialize(HttpControllerContext controllerContext)
         {
@@ -160,10 +72,7 @@ namespace Demo.ApiWeb.Controllers
         {
             return BirdInfoRepo.Get(serialNo);
         }
-
-
-
-
+        
 
         private string GetQueryString(string name)
         {
