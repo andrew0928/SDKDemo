@@ -3,6 +3,7 @@ using Demo.SDK;
 using Newtonsoft.Json;
 using System;
 using System.Collections.Generic;
+using System.Diagnostics;
 using System.Linq;
 using System.Net.Http;
 using System.Text;
@@ -14,6 +15,9 @@ namespace Demo.SDK
     {
         private HttpClient _http = null;
 
+        private Version _require_API_version = new Version(10, 0, 0, 0);
+        private Version _actual_API_version = null;
+
         public static ISDKClient Create(Uri serviceURL)
         {
             return new Client(serviceURL);
@@ -24,7 +28,18 @@ namespace Demo.SDK
             // do init / check
             this._http = new HttpClient();
             this._http.BaseAddress = serviceURL;
+
+            HttpResponseMessage result = _http.SendAsync(new HttpRequestMessage(
+                HttpMethod.Options,
+                $"/api/birds")).Result;
+            this._actual_API_version = new Version(JsonConvert.DeserializeObject<string>(result.Content.ReadAsStringAsync().Result));
+
+            // do API version check
+            if (this._require_API_version.Major != this._actual_API_version.Major) throw new InvalidOperationException();
+            if (this._require_API_version.Minor > this._actual_API_version.Minor) throw new InvalidOperationException();
         }
+
+        
 
         public IEnumerable<BirdInfo> GetBirdInfos()
         {

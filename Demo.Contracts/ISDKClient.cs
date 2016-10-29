@@ -8,6 +8,7 @@ namespace Demo.Contracts
 {
     public interface ISDKClient
     {
+        
         IEnumerable<BirdInfo> GetBirdInfos();
         BirdInfo GetBirdInfo(string serialNo);
     }
