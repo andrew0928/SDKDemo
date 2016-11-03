@@ -18,7 +18,7 @@ namespace Demo.SDK
         /// <summary>
         /// 指定這個版本的 SDK，需要對應 API 的最低版本號碼
         /// </summary>
-        private Version _require_API_version = new Version(12, 11, 0, 0);
+        private Version _require_API_version = new Version(10, 0, 0, 0);
         private Version _actual_API_version = null;
 
         public static ISDKClient Create(Uri serviceURL)
