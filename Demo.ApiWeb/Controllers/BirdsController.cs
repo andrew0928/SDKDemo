@@ -21,7 +21,9 @@ namespace Demo.ApiWeb.Controllers
 
 
 
-
+    /// <summary>
+    /// 取得 "特生中心102年繁殖鳥大調查資料集" OpenData 用的 API
+    /// </summary>
     [SDKVersionCheckActionFilter]
     [ContractCheckActionFilter]
     public class BirdsController : ApiController, IBirdsApiContract
@@ -35,11 +37,18 @@ namespace Demo.ApiWeb.Controllers
 
         private Version APIVersion { get; set; }
 
+        /// <summary>
+        /// OPTION: 傳回 API Version
+        /// </summary>
+        /// <returns></returns>
         public string Options()
         {
             return this.APIVersion.ToString();
         }
 
+        /// <summary>
+        /// HEAD: 不傳回資料，只透過 HEADER 傳回資料總筆數，方便前端 APP 預知總比數，計算進度及分頁頁數。
+        /// </summary>
         public void Head()
         {
             System.Web.HttpContext.Current.Response.AddHeader("X-DATAINFO-TOTAL", BirdInfoRepo.Data.Count().ToString());
@@ -48,6 +57,12 @@ namespace Demo.ApiWeb.Controllers
 
         private const int MaxTake = 10;
 
+        /// <summary>
+        /// 按照指定條件，傳回符合的資料列。同時會在 HEADER 內標示總比數、從哪一筆開始、這次總共傳回幾筆
+        /// $start: 指定從第幾筆開始回傳
+        /// $take:  指定最多傳回幾筆 (上限 10 筆)
+        /// </summary>
+        /// <returns></returns>
         public IEnumerable<BirdInfo> Get()
         {
             int start, take;
@@ -67,7 +82,12 @@ namespace Demo.ApiWeb.Controllers
             return result;
         }
         
-        // GET api/values/5
+
+        /// <summary>
+        /// 傳回指定的 SN 資料
+        /// </summary>
+        /// <param name="serialNo"></param>
+        /// <returns></returns>
         public BirdInfo Get(string serialNo)
         {
             return BirdInfoRepo.Get(serialNo);

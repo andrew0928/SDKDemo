@@ -14,10 +14,18 @@ namespace Demo.ApiWeb.Controllers
         {
             // step 1, get SDK required version info from HTTP request header: X-SDK-REQUIRED-VERSION
             Version required_version = null;
-            foreach (string hvalue in actionContext.Request.Headers.GetValues("X-SDK-REQUIRED-VERSION"))
+            try
             {
-                required_version = new Version(hvalue);
-                break;
+                foreach (string hvalue in actionContext.Request.Headers.GetValues("X-SDK-REQUIRED-VERSION"))
+                {
+                    required_version = new Version(hvalue);
+                    break;
+                }
+            }
+            catch
+            {
+                // client 沒指定版本，就直接略過檢查
+                return;
             }
 
             // step 2, get current API version from Assembly metadata
@@ -30,6 +38,8 @@ namespace Demo.ApiWeb.Controllers
 
             if (current_version.Major != required_version.Major) throw new InvalidOperationException();
             if (current_version.Minor < required_version.Minor) throw new InvalidOperationException();
+
+            return;
         }
     }
 }
