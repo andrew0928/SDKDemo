@@ -31,7 +31,7 @@ namespace Demo.SDK
             // do init / check
             this._http = new HttpClient();
             this._http.BaseAddress = serviceURL;
-            this._http.DefaultRequestHeaders.Add("X-SDK-REQUIRED-VERSION", this._require_API_version.ToString());
+            //this._http.DefaultRequestHeaders.Add("X-SDK-REQUIRED-VERSION", this._require_API_version.ToString());
 
             HttpResponseMessage result = _http.SendAsync(new HttpRequestMessage(
                 HttpMethod.Options,
