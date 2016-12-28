@@ -19,7 +19,7 @@ namespace Demo.SDK
         /// 指定這個版本的 SDK，需要對應 API 的最低版本號碼
         /// </summary>
         private Version _require_API_version = new Version(10, 0, 0, 0);
-        private Version _actual_API_version = null;
+        //private Version _actual_API_version = null;
 
         public static ISDKClient Create(Uri serviceURL)
         {
@@ -31,17 +31,17 @@ namespace Demo.SDK
             // do init / check
             this._http = new HttpClient();
             this._http.BaseAddress = serviceURL;
-            //this._http.DefaultRequestHeaders.Add("X-SDK-REQUIRED-VERSION", this._require_API_version.ToString());
+            this._http.DefaultRequestHeaders.Add("X-SDK-REQUIRED-VERSION", this._require_API_version.ToString());
 
-            HttpResponseMessage result = _http.SendAsync(new HttpRequestMessage(
-                HttpMethod.Options,
-                $"/api/birds")).Result;
-            this._actual_API_version = new Version(JsonConvert.DeserializeObject<string>(result.Content.ReadAsStringAsync().Result));
+            //HttpResponseMessage result = _http.SendAsync(new HttpRequestMessage(
+            //    HttpMethod.Options,
+            //    $"/api/birds")).Result;
+            //this._actual_API_version = new Version(JsonConvert.DeserializeObject<string>(result.Content.ReadAsStringAsync().Result));
             
 
-            // do API version check
-            if (this._require_API_version.Major != this._actual_API_version.Major) throw new InvalidOperationException();
-            if (this._require_API_version.Minor > this._actual_API_version.Minor) throw new InvalidOperationException();
+            //// do API version check
+            //if (this._require_API_version.Major != this._actual_API_version.Major) throw new InvalidOperationException();
+            //if (this._require_API_version.Minor > this._actual_API_version.Minor) throw new InvalidOperationException();
         }
 
         

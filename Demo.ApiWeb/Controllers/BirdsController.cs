@@ -22,7 +22,7 @@ namespace Demo.ApiWeb.Controllers
 
 
 
-    //[SDKVersionCheckActionFilter]
+    [SDKVersionCheckActionFilter]
     //[ContractCheckActionFilter]
     public class BirdsController : ApiController, IBirdsApiContract
     {
