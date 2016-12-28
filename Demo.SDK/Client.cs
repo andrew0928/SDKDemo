@@ -19,7 +19,7 @@ namespace Demo.SDK
             return new Client(serviceURL);
         }
 
-        public Client(Uri serviceURL)
+        private Client(Uri serviceURL)
         {
             // do init / check
             this._http = new HttpClient();
