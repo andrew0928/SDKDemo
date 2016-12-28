@@ -19,10 +19,10 @@ namespace Demo.Client.ConsoleApp
             timer.Start();
 
             // 方法1: 直接用 HttpClient 呼叫 web api
-            //ListAll_DirectHttpCall();
+            ListAll_DirectHttpCall();
 
             // 方法2: 透過 IEnumerable 包裝呼叫的 web api
-            ListAll_UseYield();
+            //ListAll_UseYield();
             
             Console.WriteLine($"* Total Time: {timer.ElapsedMilliseconds} msec.");
         }
@@ -91,7 +91,7 @@ namespace Demo.Client.ConsoleApp
 
         static void ShowBirdInfo(Dictionary<string, string> birdinfo)
         {
-            Console.WriteLine("[ID: {0}] -------------------------------------------------------------", birdinfo["BirdId"], birdinfo["CommonName"]);
+            //Console.WriteLine("[ID: {0}] -------------------------------------------------------------", birdinfo["BirdId"], birdinfo["CommonName"]);
             //foreach (string name in _columns_name.Keys)
             //{
             //    Console.WriteLine(
@@ -102,22 +102,23 @@ namespace Demo.Client.ConsoleApp
             //Console.WriteLine();
             //Console.WriteLine();
 
+            Console.WriteLine("[ID: {0}] {1}", birdinfo["BirdId"], birdinfo["CommonName"]);
         }
 
         static void ListAll_UseYield()
         {
             // filter: 調查地點=玉山排雲山莊
-            //foreach (var item in (from x in GetBirdsData() where x["Location"] == "玉山排雲山莊" select x))
-            //{
-            //    ShowBirdInfo(item);
-            //}
-
-            // filter: ID = B0368，找到之後離開 for-each loop
-            foreach (var item in (from x in GetBirdsData() where x["SerialNo"] == "40250" select x))
+            foreach (var item in (from x in GetBirdsData() where x["Location"] == "玉山排雲山莊" select x))
             {
                 ShowBirdInfo(item);
-                break;
             }
+
+            // filter: SerialNo = 40250，找到之後離開 for-each loop
+            //foreach (var item in (from x in GetBirdsData() where x["SerialNo"] == "40250" select x))
+            //{
+            //    ShowBirdInfo(item);
+            //    break;
+            //}
         }
 
         static IEnumerable<Dictionary<string, string>> GetBirdsData()
