@@ -21,8 +21,8 @@ namespace Demo.Client.ConsoleApp
         
         static void ListAll_UseSDK()
         {
-            //Demo.SDK.Client client = new Demo.SDK.Client(new Uri("http://localhost:56648"));
-            ISDKClient client = Demo.SDK.Client.Create(new Uri("http://localhost:56648"));
+            Demo.SDK.Client client = new Demo.SDK.Client(new Uri("http://localhost:56648"));
+            //ISDKClient client = Demo.SDK.Client.Create(new Uri("http://localhost:56648"));
             foreach (var item in (from x in client.GetBirdInfos() where x.BirdNo == "40250" select x))
             {
                 ShowBirdInfo(item);
