@@ -73,6 +73,7 @@ namespace Demo.SDK
 
         public BirdInfo GetBirdInfo(string serialNo)
         {
+            // BAD implementation!!!
             HttpResponseMessage result = _http.GetAsync($"/api/birds/{serialNo}").Result;
             var result_obj = JsonConvert.DeserializeObject<BirdInfo>(result.Content.ReadAsStringAsync().Result);
             return result_obj;

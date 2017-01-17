@@ -88,9 +88,9 @@ namespace Demo.ApiWeb.Controllers
         /// </summary>
         /// <param name="serialNo"></param>
         /// <returns></returns>
-        public BirdInfo Get(string serialNo)
+        public BirdInfo Get(string id)
         {
-            return BirdInfoRepo.Get(serialNo);
+            return BirdInfoRepo.Get(id);
         }
         
 
