@@ -1,4 +1,5 @@
 ﻿using Demo.ApiWeb.Models;
+using Demo.Contracts;
 using System;
 using System.Collections.Generic;
 using System.IO;
@@ -41,15 +42,19 @@ namespace Demo.ApiWeb.Controllers
         }
 
 
-        public string Get(string id)
+        public BirdInfo Get(string id)
         {
-            return id;
+            return (from x in BirdInfoRepo.Data where x.BirdNo == id select x).FirstOrDefault();
         }
 
 
-        public string Get()
+
+        public IEnumerable<string> Get()
         {
-            return "1,2,3,4,5";
+            foreach(BirdInfo b in BirdInfoRepo.Data)
+            {
+                yield return b.BirdNo;
+            }
         }
 
     }
