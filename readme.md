@@ -6,29 +6,29 @@
 
 # SDK ToDo:
 
-[ ] security: api access token  
+[X] security: api access token  
 
 [ ] data transaction
 
-[ ] SDK 要能簡化 app 呼叫 api 的程序  
+[X] SDK 要能簡化 app 呼叫 api 的程序  
 > 貼近使用的 programming language 使用慣例
 > 例如芬頁的機制要用 IEnumerable 包裝
 
 [ ] SDK 要能進行效能優化 (ex: cache)
 
-[ ] SDK (client side) interface
+[X] SDK (client side) interface
 > 確保 app / sdk 的向前相容性。  
 > 若 SDK 有新版本，要保證 app 程式，只需更換新版 SDK DLL 即可。
 > 不用修改 app code 就要能繼續使用
 
-[ ] API (server side) interface
+[X] API (server side) interface
 > 確保 sdk / api 的向前相容性。
 > 若 server api 有異動，要保證 app 只要更新到支援範圍內的 SDK，都要能正常使用
 
 [ ] API retry 相容性 (safe & idempotent)
 > (同樣的 API 重複呼叫多次，不會影響結果)
 
-[ ] API 必須遵照 HTTP status code
+[X] API 必須遵照 HTTP status code
 
 ## Reference
 https://tw.twincl.com/programming/*641y
