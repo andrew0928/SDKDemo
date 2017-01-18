@@ -18,7 +18,7 @@ namespace Demo.SDK
         /// <summary>
         /// 指定這個版本的 SDK，需要對應 API 的最低版本號碼
         /// </summary>
-        private Version _require_API_version = new Version(10, 0, 0, 0);
+        private Version _require_API_version = new Version(10, 1, 0, 0);
         private Version _actual_API_version = null;
 
         public static ISDKClient Create(Uri serviceURL)
@@ -35,46 +35,34 @@ namespace Demo.SDK
 
             HttpResponseMessage result = _http.SendAsync(new HttpRequestMessage(
                 HttpMethod.Options,
-                $"/api/birds")).Result;
+                $"/api/birds2")).Result;
             this._actual_API_version = new Version(JsonConvert.DeserializeObject<string>(result.Content.ReadAsStringAsync().Result));
 
             // do API version check
             if (this._require_API_version.Major != this._actual_API_version.Major) throw new InvalidOperationException();
             if (this._require_API_version.Minor > this._actual_API_version.Minor) throw new InvalidOperationException();
         }
-
-        
+      
 
         public IEnumerable<BirdInfo> GetBirdInfos()
         {
-            int current = 0;
-            int pagesize = 5;
+            HttpResponseMessage result = _http.GetAsync($"/api/birds2").Result;
+            string[] idlist = JsonConvert.DeserializeObject<string[]>(result.Content.ReadAsStringAsync().Result);
 
-            do
+            if (idlist != null)
             {
-                //Console.WriteLine($"--- loading data... ({current} ~ {current + pagesize}) ---");
-                HttpResponseMessage result = _http.GetAsync($"/api/birds?$start={current}&$take={pagesize}").Result;
-
-                var result_objs = JsonConvert.DeserializeObject<BirdInfo[]>(result.Content.ReadAsStringAsync().Result);
-
-                foreach (BirdInfo item in result_objs)
+                foreach (string id in idlist)
                 {
-                    yield return item;
+                    yield return this.GetBirdInfo(id);
                 }
-
-                if (result_objs.Length == 0) break;
-                if (result_objs.Length < pagesize) break;
-
-                current += pagesize;
-            } while (true);
-
+            }
             yield break;
         }
 
         public BirdInfo GetBirdInfo(string serialNo)
         {
             // BAD implementation!!!
-            HttpResponseMessage result = _http.GetAsync($"/api/birds/{serialNo}").Result;
+            HttpResponseMessage result = _http.GetAsync($"/api/birds2/{serialNo}").Result;
             var result_obj = JsonConvert.DeserializeObject<BirdInfo>(result.Content.ReadAsStringAsync().Result);
             return result_obj;
         }

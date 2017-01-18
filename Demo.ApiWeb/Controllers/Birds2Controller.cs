@@ -44,7 +44,8 @@ namespace Demo.ApiWeb.Controllers
 
         public BirdInfo Get(string id)
         {
-            return (from x in BirdInfoRepo.Data where x.BirdNo == id select x).FirstOrDefault();
+            //return (from x in BirdInfoRepo.Data where x.BirdNo == id select x).FirstOrDefault();
+            return BirdInfoRepo.Get(id);
         }
 
 
