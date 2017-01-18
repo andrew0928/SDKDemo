@@ -1,6 +1,7 @@
 ﻿using Demo.Contracts;
 using System;
 using System.Collections.Generic;
+using System.Diagnostics;
 using System.Linq;
 using System.Text;
 using System.Threading.Tasks;
@@ -19,9 +20,19 @@ namespace Demo.SDK.TestConsole
                 apiurl = args[0];
             }
 
-            TestSingleQuery();
+            Stopwatch timer = new Stopwatch();
 
+            timer.Restart();
+            TestSingleQuery();
+            Console.WriteLine($"Test case execute time: {timer.ElapsedMilliseconds} msec.");
+
+            timer.Restart();
             TestLinqQuery();
+            Console.WriteLine($"Test case execute time: {timer.ElapsedMilliseconds} msec.");
+
+            timer.Restart();
+            TestLinqQuery();
+            Console.WriteLine($"Test case execute time: {timer.ElapsedMilliseconds} msec.");
         }
 
 

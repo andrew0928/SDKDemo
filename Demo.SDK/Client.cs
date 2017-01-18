@@ -63,7 +63,7 @@ namespace Demo.SDK
         public BirdInfo GetBirdInfo(string serialNo)
         {
             // bug here
-            string cachekey = "cache://birds/{serialNo}";
+            string cachekey = $"cache://birds/{serialNo}";
 
             if (this._cache.Contains(cachekey))
             {
