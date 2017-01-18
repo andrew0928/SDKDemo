@@ -26,6 +26,7 @@ namespace Demo.ApiWeb.Controllers
     /// </summary>
     [SDKVersionCheckActionFilter]
     [ContractCheckActionFilter]
+    [Obsolete]
     public class BirdsController : ApiController, IBirdsApiContract
     {
         protected override void Initialize(HttpControllerContext controllerContext)

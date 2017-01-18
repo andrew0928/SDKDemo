@@ -1,0 +1,1 @@
+%CD%\output\Demo.SDK.TestConsole\Demo.SDK.TestConsole.exe http://localhost:8000/
