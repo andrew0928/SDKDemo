@@ -88,6 +88,9 @@
   </ItemGroup>
   <ItemGroup>
     <None Include="App_Data\birds.md" />
+    <None Include="dockerfile">
+      <CopyToOutputDirectory>Always</CopyToOutputDirectory>
+    </None>
     <Content Include="Global.asax" />
     <Content Include="Web.config" />
     <Content Include="packages.config" />

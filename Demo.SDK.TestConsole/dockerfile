@@ -1,0 +1,7 @@
+﻿FROM microsoft/dotnet-framework
+
+ENV APIURL http://APIURL:8000/
+
+ADD * c:\Demo.SDK.TestConsole
+WORKDIR c:\Demo.SDK.TestConsole
+CMD Demo.SDK.TestConsole.exe $APIURL

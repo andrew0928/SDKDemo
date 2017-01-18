@@ -10,7 +10,6 @@ xcopy /e /i Demo.SDK.TestConsole\output output\Demo.SDK.TestConsole
 
 
 
-start /min start-web.cmd
-
-choice /t 10
-call start-test.cmd
+: start /min start-web.cmd
+: choice /t 10
+: call start-test.cmd

@@ -1,0 +1,3 @@
+﻿FROM microsoft/aspnet
+
+ADD _PublishedWebsites\Demo.ApiWeb\ c:\inetpub\wwwroot\
