@@ -23,11 +23,13 @@ namespace Demo.Client.ConsoleApp
         {
             //ISDKClient client = Demo.SDK.Client.Create(new Uri("http://demoapiweb20161103110849.azurewebsites.net/"));
             ISDKClient client = Demo.SDK.Client.Create(new Uri("http://localhost:56648"));
-            foreach (var item in (from x in client.GetBirdInfos() where x.BirdNo == "40250" select x))
-            {
-                ShowBirdInfo(item);
-                break;
-            }
+            //foreach (var item in (from x in client.GetBirdInfos() where x.BirdNo == "40250" select x))
+            //{
+            //    ShowBirdInfo(item);
+            //    break;
+            //}
+
+            ShowBirdInfo(client.GetBirdInfo("40250"));
         }
 
         static void ShowBirdInfo(BirdInfo birdinfo)
