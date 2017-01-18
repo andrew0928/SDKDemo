@@ -6,6 +6,7 @@ using System.Collections.Generic;
 using System.Diagnostics;
 using System.Linq;
 using System.Net.Http;
+using System.Runtime.Caching;
 using System.Text;
 using System.Threading.Tasks;
 
@@ -61,10 +62,24 @@ namespace Demo.SDK
 
         public BirdInfo GetBirdInfo(string serialNo)
         {
-            // BAD implementation!!!
-            HttpResponseMessage result = _http.GetAsync($"/api/birds2/{serialNo}").Result;
-            var result_obj = JsonConvert.DeserializeObject<BirdInfo>(result.Content.ReadAsStringAsync().Result);
-            return result_obj;
+            // bug here
+            string cachekey = "cache://birds/{serialNo}";
+
+            if (this._cache.Contains(cachekey))
+            {
+                return this._cache.Get(cachekey) as BirdInfo;
+            }
+            else
+            {
+                HttpResponseMessage result = _http.GetAsync($"/api/birds2/{serialNo}").Result;
+                var result_obj = JsonConvert.DeserializeObject<BirdInfo>(result.Content.ReadAsStringAsync().Result);
+
+                this._cache.Set(cachekey, result_obj, DateTimeOffset.Now.AddMinutes(10));
+
+                return result_obj;
+            }
         }
+
+        private ObjectCache _cache = MemoryCache.Default;
     }
 }
