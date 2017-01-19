@@ -8,8 +8,10 @@ Project("{2150E333-8FDC-42A3-9474-1A3956D46DE8}") = "Solution Items", "Solution 
 		build.cmd = build.cmd
 		diagram.pptx = diagram.pptx
 		readme.md = readme.md
+		run-test.cmd = run-test.cmd
 		start-test.cmd = start-test.cmd
 		start-web.cmd = start-web.cmd
+		update-registry.cmd = update-registry.cmd
 	EndProjectSection
 EndProject
 Project("{FAE04EC0-301F-11D3-BF4B-00C04F79EFBC}") = "Demo.ApiWeb", "Demo.ApiWeb\Demo.ApiWeb.csproj", "{453F46E6-FFC5-4CBB-B34B-4989CEAD11C7}"
