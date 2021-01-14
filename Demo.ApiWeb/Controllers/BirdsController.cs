@@ -25,9 +25,8 @@ namespace Demo.ApiWeb.Controllers
     /// 取得 "特生中心102年繁殖鳥大調查資料集" OpenData 用的 API
     /// </summary>
     [SDKVersionCheckActionFilter]
-    [ContractCheckActionFilter]
     [Obsolete]
-    public class BirdsController : ApiController, IBirdsApiContract
+    public class BirdsController : BirdsApiContractControllerBase<BirdsController>
     {
         protected override void Initialize(HttpControllerContext controllerContext)
         {
@@ -42,7 +41,7 @@ namespace Demo.ApiWeb.Controllers
         /// OPTION: 傳回 API Version
         /// </summary>
         /// <returns></returns>
-        public string Options()
+        public override string Options()
         {
             return this.APIVersion.ToString();
         }
@@ -50,7 +49,7 @@ namespace Demo.ApiWeb.Controllers
         /// <summary>
         /// HEAD: 不傳回資料，只透過 HEADER 傳回資料總筆數，方便前端 APP 預知總比數，計算進度及分頁頁數。
         /// </summary>
-        public void Head()
+        public override void Head()
         {
             System.Web.HttpContext.Current.Response.AddHeader("X-DATAINFO-TOTAL", BirdInfoRepo.Data.Count().ToString());
             return;
@@ -64,7 +63,7 @@ namespace Demo.ApiWeb.Controllers
         /// $take:  指定最多傳回幾筆 (上限 10 筆)
         /// </summary>
         /// <returns></returns>
-        public IEnumerable<BirdInfo> Get()
+        public override IEnumerable<BirdInfo> Get()
         {
             int start, take;
             if (int.TryParse(this.GetQueryString("$start"), out start) == false) start = 0;
@@ -82,22 +81,22 @@ namespace Demo.ApiWeb.Controllers
 
             return result;
         }
-        
+
 
         /// <summary>
         /// 傳回指定的 SN 資料
         /// </summary>
         /// <param name="serialNo"></param>
         /// <returns></returns>
-        public BirdInfo Get(string id)
+        public override BirdInfo Get(string id)
         {
             return BirdInfoRepo.Get(id);
         }
-        
+
 
         private string GetQueryString(string name)
         {
-            foreach(var pair in this.Request.GetQueryNameValuePairs())
+            foreach (var pair in this.Request.GetQueryNameValuePairs())
             {
                 if (pair.Key == name) return pair.Value;
             }
@@ -105,6 +104,6 @@ namespace Demo.ApiWeb.Controllers
             return null;
         }
 
-        
+
     }
 }
