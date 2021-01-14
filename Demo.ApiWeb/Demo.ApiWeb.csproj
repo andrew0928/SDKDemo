@@ -102,7 +102,6 @@
     <Compile Include="App_Start\SwaggerConfig.cs" />
     <Compile Include="App_Start\WebApiConfig.cs" />
     <Compile Include="Controllers\Birds2Controller.cs" />
-    <Compile Include="Controllers\BirdsApiContractControllerBase.cs" />
     <Compile Include="Controllers\BirdsController.cs" />
     <Compile Include="Controllers\ContractCheckActionFilterAttribute.cs" />
     <Compile Include="Controllers\SDKVersionCheckActionFilterAttribute.cs" />

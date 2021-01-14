@@ -1,7 +1,6 @@
-﻿using Demo.Contracts;
-using System.Collections.Generic;
+﻿using System.Collections.Generic;
 
-namespace Demo.ApiWeb.Controllers
+namespace Demo.Contracts
 {
     public abstract class BirdsApiContractControllerBase<T> : ApiContractControllerBase<T>, IBirdsApiContract where T : IApiContract
     {

@@ -53,6 +53,7 @@
     <Compile Include="ApiContractBase.cs" />
     <Compile Include="ApiContractControllerBase.cs" />
     <Compile Include="BirdInfo.cs" />
+    <Compile Include="BirdsApiContractControllerBase.cs" />
     <Compile Include="IApiContract.cs" />
     <Compile Include="IBirdsApiContract.cs" />
     <Compile Include="ISDKClient.cs" />
