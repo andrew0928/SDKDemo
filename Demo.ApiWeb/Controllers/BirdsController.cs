@@ -25,9 +25,8 @@ namespace Demo.ApiWeb.Controllers
     /// 取得 "特生中心102年繁殖鳥大調查資料集" OpenData 用的 API
     /// </summary>
     [SDKVersionCheckActionFilter]
-    [ContractCheckActionFilter]
     [Obsolete]
-    public class BirdsController : ApiController, IBirdsApiContract
+    public class BirdsController : ApiContractControllerBase<BirdsController>, IBirdsApiContract
     {
         protected override void Initialize(HttpControllerContext controllerContext)
         {
@@ -82,7 +81,7 @@ namespace Demo.ApiWeb.Controllers
 
             return result;
         }
-        
+
 
         /// <summary>
         /// 傳回指定的 SN 資料
@@ -93,11 +92,11 @@ namespace Demo.ApiWeb.Controllers
         {
             return BirdInfoRepo.Get(id);
         }
-        
+
 
         private string GetQueryString(string name)
         {
-            foreach(var pair in this.Request.GetQueryNameValuePairs())
+            foreach (var pair in this.Request.GetQueryNameValuePairs())
             {
                 if (pair.Key == name) return pair.Value;
             }
@@ -105,6 +104,6 @@ namespace Demo.ApiWeb.Controllers
             return null;
         }
 
-        
+
     }
 }
