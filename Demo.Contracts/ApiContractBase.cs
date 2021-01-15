@@ -6,7 +6,7 @@ using System.Threading.Tasks;
 
 namespace Demo.Contracts
 {
-    public abstract class ApiContractBase<T> : IApiContract where T : IApiContract
+    public abstract class ApiContractBase<T> where T : IApiContract
     {
     }
 

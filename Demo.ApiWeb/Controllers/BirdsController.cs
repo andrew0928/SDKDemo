@@ -26,7 +26,7 @@ namespace Demo.ApiWeb.Controllers
     /// </summary>
     [SDKVersionCheckActionFilter]
     [Obsolete]
-    public class BirdsController : BirdsApiContractControllerBase<BirdsController>
+    public class BirdsController : ApiContractControllerBase<BirdsController>, IBirdsApiContract
     {
         protected override void Initialize(HttpControllerContext controllerContext)
         {
@@ -41,7 +41,7 @@ namespace Demo.ApiWeb.Controllers
         /// OPTION: 傳回 API Version
         /// </summary>
         /// <returns></returns>
-        public override string Options()
+        public string Options()
         {
             return this.APIVersion.ToString();
         }
@@ -49,7 +49,7 @@ namespace Demo.ApiWeb.Controllers
         /// <summary>
         /// HEAD: 不傳回資料，只透過 HEADER 傳回資料總筆數，方便前端 APP 預知總比數，計算進度及分頁頁數。
         /// </summary>
-        public override void Head()
+        public void Head()
         {
             System.Web.HttpContext.Current.Response.AddHeader("X-DATAINFO-TOTAL", BirdInfoRepo.Data.Count().ToString());
             return;
@@ -63,7 +63,7 @@ namespace Demo.ApiWeb.Controllers
         /// $take:  指定最多傳回幾筆 (上限 10 筆)
         /// </summary>
         /// <returns></returns>
-        public override IEnumerable<BirdInfo> Get()
+        public IEnumerable<BirdInfo> Get()
         {
             int start, take;
             if (int.TryParse(this.GetQueryString("$start"), out start) == false) start = 0;
@@ -88,7 +88,7 @@ namespace Demo.ApiWeb.Controllers
         /// </summary>
         /// <param name="serialNo"></param>
         /// <returns></returns>
-        public override BirdInfo Get(string id)
+        public BirdInfo Get(string id)
         {
             return BirdInfoRepo.Get(id);
         }

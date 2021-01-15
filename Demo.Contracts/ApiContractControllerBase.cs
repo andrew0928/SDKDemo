@@ -7,7 +7,7 @@ using System.Web.Http;
 
 namespace Demo.Contracts
 {
-    public abstract class ApiContractControllerBase<T> : ApiController, IApiContract where T : IApiContract
+    public abstract class ApiContractControllerBase<T> : ApiController where T : IApiContract
     {
     }
 }
